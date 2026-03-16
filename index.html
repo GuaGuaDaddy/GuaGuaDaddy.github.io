@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语语法全体系 - 交互式学习应用</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- SVG Definitions for gradients -->
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;">
+        <defs>
+            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color: #2563EB; stop-opacity: 0.6" />
+                <stop offset="100%" style="stop-color: #8B5CF6; stop-opacity: 0.8" />
+            </linearGradient>
+            <filter id="glow">
+                <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                <feMerge>
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+        </defs>
+    </svg>
+    
+    <!-- 主容器 -->
+    <div class="app-container">
+        <!-- 顶部导航栏 -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <div class="logo-text">English Grammar System</div>
+            </div>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索语法知识点...">
+                    <button id="searchBtn">🔍</button>
+                </div>
+                <div class="progress-indicator">
+                    <span class="progress-label">学习进度:</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <span class="progress-text" id="progressText">0%</span>
+                </div>
+                <button class="btn-icon" id="mistakesBtn" title="错题本">📝</button>
+                <button class="btn-icon" id="notesBtn" title="我的笔记">📓</button>
+                <button class="btn-icon" id="planBtn" title="学习计划">📅</button>
+            </div>
+        </header>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 思维导图区域 -->
+            <div class="mindmap-container" id="mindmapContainer">
+                <div class="mindmap-canvas" id="mindmapCanvas">
+                    <!-- 思维导图将通过JS动态渲染 -->
+                </div>
+                <!-- 缩放控制 -->
+                <div class="zoom-controls">
+                    <button id="zoomIn" title="放大">+</button>
+                    <button id="zoomOut" title="缩小">-</button>
+                    <button id="zoomReset" title="重置">⟲</button>
+                </div>
+                <!-- 图例 -->
+                <div class="legend">
+                    <div class="legend-item"><span class="dot learned"></span> 已学习</div>
+                    <div class="legend-item"><span class="dot keypoint"></span> 重难点</div>
+                    <div class="legend-item"><span class="dot mistake"></span> 易错点</div>
+                </div>
+            </div>
+
+            <!-- 详情面板 -->
+            <aside class="detail-panel" id="detailPanel">
+                <div class="panel-placeholder">
+                    <div class="placeholder-icon">👆</div>
+                    <p>点击思维导图中的节点<br>开始学习</p>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- 详情面板模板 -->
+    <template id="detailTemplate">
+        <div class="panel-content">
+            <div class="panel-header">
+                <h2 class="node-title"></h2>
+                <div class="node-badges"></div>
+                <button class="btn-close" title="关闭">×</button>
+            </div>
+            <div class="panel-body">
+                <!-- 核心定义 -->
+                <section class="content-section definition-section">
+                    <h3><span class="section-icon">📖</span> 核心定义</h3>
+                    <div class="definition-content"></div>
+                </section>
+
+                <!-- 规则详解 -->
+                <section class="content-section rules-section">
+                    <h3><span class="section-icon">📋</span> 规则详解</h3>
+                    <ul class="rules-list"></ul>
+                </section>
+
+                <!-- 例句示范 -->
+                <section class="content-section examples-section">
+                    <h3><span class="section-icon">💬</span> 例句示范</h3>
+                    <div class="examples-content"></div>
+                </section>
+
+                <!-- 易错警示 -->
+                <section class="content-section mistakes-section">
+                    <h3><span class="section-icon">⚠️</span> 易错警示</h3>
+                    <ul class="mistakes-list"></ul>
+                </section>
+
+                <!-- 关联跳转 -->
+                <section class="content-section related-section">
+                    <h3><span class="section-icon">🔗</span> 关联知识点</h3>
+                    <div class="related-nodes"></div>
+                </section>
+
+                <!-- 练习按钮 -->
+                <section class="content-section practice-section">
+                    <button class="btn-practice" id="startPractice">
+                        <span>📝</span> 开始练习
+                    </button>
+                    <button class="btn-note" id="addNote">
+                        <span>📓</span> 添加笔记
+                    </button>
+                    <button class="btn-mark" id="markLearned">
+                        <span>✓</span> 标记已学
+                    </button>
+                </section>
+            </div>
+        </div>
+    </template>
+
+    <!-- 练习面板模板 -->
+    <template id="practiceTemplate">
+        <div class="practice-panel">
+            <div class="practice-header">
+                <h2>练习 - <span class="practice-title"></span></h2>
+                <div class="practice-progress">
+                    <span class="current-q">1</span>/<span class="total-q">5</span>
+                </div>
+                <button class="btn-close" title="关闭">×</button>
+            </div>
+            <div class="practice-body">
+                <div class="question-container">
+                    <p class="question-text"></p>
+                    <div class="options-container"></div>
+                </div>
+            </div>
+            <div class="practice-footer">
+                <button class="btn-prev" disabled>上一题</button>
+                <button class="btn-next">下一题</button>
+                <button class="btn-submit" style="display:none;">提交答案</button>
+            </div>
+        </div>
+    </template>
+
+    <!-- 模态框容器 -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <h3 class="modal-title"></h3>
+                <button class="btn-close" id="modalClose">×</button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- 错题本模态框 -->
+    <template id="mistakesModalTemplate">
+        <div class="mistakes-modal">
+            <div class="mistakes-filter">
+                <select id="mistakesFilter">
+                    <option value="all">全部错题</option>
+                </select>
+            </div>
+            <div class="mistakes-list" id="mistakesList"></div>
+        </div>
+    </template>
+
+    <!-- 笔记模态框 -->
+    <template id="notesModalTemplate">
+        <div class="notes-modal">
+            <div class="notes-filter">
+                <select id="notesFilter">
+                    <option value="all">全部笔记</option>
+                </select>
+            </div>
+            <div class="notes-list" id="notesList"></div>
+        </div>
+    </template>
+
+    <!-- 学习计划模态框 -->
+    <template id="planModalTemplate">
+        <div class="plan-modal">
+            <div class="plan-stats">
+                <div class="stat-item">
+                    <span class="stat-value" id="totalLearned">0</span>
+                    <span class="stat-label">已学知识点</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="totalNodes">180</span>
+                    <span class="stat-label">总知识点</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="streakDays">0</span>
+                    <span class="stat-label">连续学习天数</span>
+                </div>
+            </div>
+            <div class="plan-calendar" id="planCalendar"></div>
+            <div class="plan-today">
+                <h4>今日计划</h4>
+                <div class="today-tasks" id="todayTasks"></div>
+            </div>
+        </div>
+    </template>
+
+    <!-- 笔记输入模态框 -->
+    <template id="noteInputTemplate">
+        <div class="note-input-modal">
+            <textarea id="noteContent" placeholder="请输入学习笔记..."></textarea>
+            <div class="note-actions">
+                <button class="btn-cancel">取消</button>
+                <button class="btn-save">保存</button>
+            </div>
+        </div>
+    </template>
+
+    <!-- 搜索结果模态框 -->
+    <template id="searchResultsTemplate">
+        <div class="search-results">
+            <div class="results-list" id="resultsList"></div>
+        </div>
+    </template>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

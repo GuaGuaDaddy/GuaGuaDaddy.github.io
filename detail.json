@@ -1,0 +1,4320 @@
+{
+  "metadata": {
+    "name": "英语语法全体系知识点库",
+    "version": "1.0",
+    "updateTime": "2024-05-20",
+    "totalNodes": 180,
+    "authorityReference": ["剑桥英语语法在用", "牛津高级英语语法"],
+    "nodeStructure": "层级树形结构，适配思维导图渲染与交互式应用开发"
+  },
+  "nodes": [
+    {
+      "nodeId": "root",
+      "nodeName": "英语语法全体系<br>English Grammar System",
+      "parentId": null,
+      "level": 0,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "英语语法全体系完整知识框架，覆盖从入门到高阶的全部核心语法知识点，构建闭环式英语语法逻辑体系，是英语听说读写能力的核心底层基础",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": [],
+        "relatedNodes": ["1", "2", "3", "4", "5", "6"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1",
+      "nodeName": "词法基础 · Lexis & Morphology",
+      "parentId": "root",
+      "level": 1,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语语法的核心基础模块，研究词汇的分类、形态变化规则、构词方法与句法功能，是句子构成的最小语义与语法单元",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["词类混淆导致句法错误", "词汇形态变化规则误用"],
+        "relatedNodes": ["1.1", "1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1",
+      "nodeName": "十大词类 · Parts of Speech",
+      "parentId": "1",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "根据词汇的语义、句法功能与形态变化，将英语词汇划分为10大核心类别，是词法学习的核心框架",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["词类与句法功能不匹配", "实词与虚词用法混淆"],
+        "relatedNodes": ["1.1.1", "1.1.2", "1.1.3", "1.1.4", "1.1.5", "1.1.6", "1.1.7", "1.1.8", "1.1.9", "1.1.10"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.1",
+      "nodeName": "名词 Nouns",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示人、事物、地点、抽象概念的词类，是句子中承担核心语义的实词，可在句中充当多种句法成分",
+        "rules": ["有可数与不可数之分，可数名词有单复数形态变化", "可通过's/of结构构成所有格，表所属关系"],
+        "examples": {
+          "basic": ["student(学生)", "book(书)", "Beijing(北京)", "happiness(幸福)"],
+          "sentence": ["The student reads a book every day."]
+        },
+        "commonMistakes": ["可数不可数名词混淆", "单复数变化规则错误", "所有格用法误用"],
+        "relatedNodes": ["1.1.1.1", "1.1.1.2", "1.1.1.3", "1.1.1.4", "2.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.1.1",
+      "nodeName": "可数/不可数名词",
+      "parentId": "1.1.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "名词的核心分类，可数名词指可直接用数目计算的个体名词/集体名词；不可数名词指无法直接用数目计算的物质名词/抽象名词，无复数形式",
+        "rules": [
+          "可数名词可直接搭配不定冠词a/an、数词，有单复数变化",
+          "不可数名词不能直接搭配a/an、数词，需用量词修饰（如a piece of bread）",
+          "部分名词兼具可数与不可数属性，语义随用法变化（如room：房间<可数>/空间<不可数>）"
+        ],
+        "examples": {
+          "countable": ["apple", "student", "family", "city"],
+          "uncountable": ["water", "music", "knowledge", "rice"],
+          "dualAttribute": ["There are 3 rooms in the house.(可数)", "There is no room for the car.(不可数)"]
+        },
+        "commonMistakes": ["不可数名词前直接加a/an/数词", "不可数名词误用复数形式", "两用名词语义与用法不匹配"],
+        "relatedNodes": ["1.1.1.2"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "Please give me ____ to write on.",
+          "options": ["a paper", "some paper", "some papers", "papers"],
+          "answer": "some paper",
+          "analysis": "paper表示“纸张”时为不可数名词，不能直接加a/an或变复数，需用some修饰；papers表示“文件、论文”，不符合句意"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.1.2",
+      "nodeName": "单复数变化规则",
+      "parentId": "1.1.1",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "可数名词从单数形式变为复数形式的通用规则与特殊变化规则，分为规则变化与不规则变化两大类",
+        "rules": [
+          "规则变化1：一般情况直接在词尾加-s",
+          "规则变化2：以s/x/ch/sh/o结尾的词，加-es（部分外来词/缩写o结尾直接加-s，如photo→photos）",
+          "规则变化3：以辅音字母+y结尾，变y为i加-es；元音字母+y结尾直接加-s",
+          "规则变化4：以f/fe结尾，多数变f/fe为v加-es，少数直接加-s（如roof→roofs）",
+          "不规则变化：改变元音（man→men）、单复同形（sheep→sheep）、特殊变形（child→children）"
+        ],
+        "examples": {
+          "regular": ["book→books", "box→boxes", "city→cities", "knife→knives"],
+          "irregular": ["foot→feet", "deer→deer", "mouse→mice", "ox→oxen"]
+        },
+        "commonMistakes": ["o结尾单词复数规则混淆", "f/fe结尾变形错误", "不规则变化死记硬背出错"],
+        "relatedNodes": ["1.1.1.1", "3.3"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "The ____ (child) are playing with those ____ (sheep) on the farm.",
+          "answer": "children; sheep",
+          "analysis": "child的复数为不规则变形children；sheep为单复同形名词，复数形式与单数一致"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.1.3",
+      "nodeName": "名词所有格",
+      "parentId": "1.1.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示名词之间所属关系的语法形式，分为's所有格、of所有格、双重所有格三类",
+        "rules": [
+          "'s所有格：多用于有生命的名词，单数名词加's，复数名词以s结尾加'，不以s结尾加's",
+          "of所有格：多用于无生命的名词，结构为A of B，表“B的A”",
+          "双重所有格：结构为a/an/this/that + 名词 + of + 名词性物主代词/'s所有格，表部分所属"
+        ],
+        "examples": {
+          "'s所有格": ["Tom's car", "the students' classroom", "Children's Day"],
+          "of所有格": ["the door of the room", "the name of the song"],
+          "双重所有格": ["a friend of my father's", "this book of mine"]
+        },
+        "commonMistakes": ["有生命/无生命名词所有格形式混用", "复数名词所有格's与'混淆", "双重所有格结构错误"],
+        "relatedNodes": ["1.1.1.1", "1.1.5"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "This is a photo of my mother.",
+          "correction": "This is a photo of my mother's.",
+          "analysis": "原句表示“一张我妈妈本人的照片”，双重所有格mother's表示“我妈妈拥有的照片中的一张”，符合所属关系的常用表达"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.1.4",
+      "nodeName": "句法功能（主/宾/表/定/同位语）",
+      "parentId": "1.1.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "名词在句子中可承担的多种句法成分，是连接词法与句法的核心桥梁",
+        "rules": [
+          "作主语：位于句首，是句子动作的发出者",
+          "作宾语：位于及物动词或介词后，是动作的承受者",
+          "作表语：位于系动词后，补充说明主语的身份/特征",
+          "作定语：修饰另一名词，表材料/用途/属性等",
+          "作同位语：位于名词后，解释说明该名词的具体内容"
+        ],
+        "examples": {
+          "主语": ["The book is interesting."],
+          "宾语": ["I bought a book yesterday."],
+          "表语": ["This is my favorite book."],
+          "定语": ["This is a story book."],
+          "同位语": ["Our teacher, Ms Li, is very kind."]
+        },
+        "commonMistakes": ["名词作定语误用复数形式", "同位语与定语混淆", "主谓一致中主语名词的单复数判断错误"],
+        "relatedNodes": ["2.1", "2.2", "3.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "In the sentence \"She gave her sister a birthday gift.\", the word \"gift\" acts as ____.",
+          "options": ["subject", "direct object", "indirect object", "predicative"],
+          "answer": "direct object",
+          "analysis": "双宾语结构中，直接宾语是动作的直接承受者，gift是gave的直接对象，sister是间接宾语"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2",
+      "nodeName": "动词 Verbs【核心】",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示动作或状态的词类，是英语句子的核心与灵魂，决定句子的时态、语态、语气，是英语语法的核心重难点",
+        "rules": ["动词有人称、数、时态、语态、语气的形态变化", "分为谓语动词与非谓语动词两大类，句法功能完全不同"],
+        "examples": {
+          "basic": ["run", "be", "have", "do", "can", "like"],
+          "sentence": ["She runs every morning."]
+        },
+        "commonMistakes": ["谓语与非谓语动词用法混淆", "动词时态/语态变形错误", "及物不及物动词混用"],
+        "relatedNodes": ["1.1.2.1", "1.1.2.2", "3.1", "3.2", "5.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.2.1",
+      "nodeName": "谓语动词 Finite Verbs",
+      "parentId": "1.1.2",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "在句子中充当谓语的动词，受主语的人称、数的限制，同时体现句子的时态、语态、语气，是句子的核心谓语成分",
+        "rules": ["必须与主语在人称和数上保持一致", "一个简单句有且仅有一个核心谓语动词（并列谓语除外）"],
+        "examples": {
+          "sentence": ["He works in a company.", "They are reading books now."]
+        },
+        "commonMistakes": ["简单句中出现多个核心谓语动词", "主谓一致规则误用", "时态与时间状语不匹配"],
+        "relatedNodes": ["1.1.2.1.1", "1.1.2.1.2", "1.1.2.1.3", "1.1.2.1.4", "2.1", "3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.2.1.1",
+      "nodeName": "实义动词（及物/不及物/兼类）",
+      "parentId": "1.1.2.1",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "有完整实际词汇意义，能独立充当谓语的动词，分为及物动词、不及物动词、兼类动词三大类",
+        "rules": [
+          "及物动词(vt.)：后面必须直接跟宾语，意义才完整，可用于被动语态",
+          "不及物动词(vi.)：本身意义完整，后面不能直接跟宾语，如需接宾语必须加介词，不可用于被动语态",
+          "兼类动词：多数英语动词兼具及物与不及物属性，语义随用法变化"
+        ],
+        "examples": {
+          "及物动词": ["buy", "read", "like", "tell", "I bought a new phone."],
+          "不及物动词": ["come", "go", "arrive", "happen", "He arrived at the airport."],
+          "兼类动词": ["She sings well.(不及物)", "She sings a song.(及物)"]
+        },
+        "commonMistakes": ["不及物动词后直接加宾语", "及物动词与介词搭配冗余", "被动语态中误用不及物动词"],
+        "relatedNodes": ["2.2", "3.2"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "The accident was happened yesterday.",
+          "correction": "The accident happened yesterday.",
+          "analysis": "happen是不及物动词，没有被动语态，不能用was happened结构"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.1.2",
+      "nodeName": "系动词（be/感官/变化/保持类）",
+      "parentId": "1.1.2.1",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "本身有一定词汇意义，不能独立充当谓语，必须后面跟表语构成系表结构，说明主语的状态、特征、身份、变化的动词",
+        "rules": [
+          "系动词无被动语态，无进行时（表状态变化的进行时除外）",
+          "核心分类：be动词、感官系动词、变化系动词、保持系动词、表象系动词、终止系动词"
+        ],
+        "examples": {
+          "be动词": ["am/is/are/was/were", "She is a doctor."],
+          "感官系动词": ["look/sound/smell/taste/feel", "The cake tastes good."],
+          "变化系动词": ["become/get/turn/grow/go", "The leaves turn yellow in autumn."],
+          "保持系动词": ["keep/stay/remain/stand", "Please keep quiet."]
+        },
+        "commonMistakes": ["系动词后误用副词修饰（如taste well）", "系动词与实义动词用法混淆", "be动词冗余"],
+        "relatedNodes": ["2.2", "1.1.3", "1.1.4"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "The music ____ wonderful. Would you like to listen to it again?",
+          "options": ["sounds", "hears", "listens", "is sounded"],
+          "answer": "sounds",
+          "analysis": "sound是感官系动词，后接形容词作表语，无被动语态；hear/listen是实义动词，不符合结构与句意"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.1.3",
+      "nodeName": "助动词（do/have/will等）",
+      "parentId": "1.1.2.1",
+      "level": 5,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "本身无完整词汇意义，不能独立充当谓语，只能辅助实义动词构成时态、语态、否定句、疑问句、强调句的动词",
+        "rules": [
+          "助动词必须与实义动词搭配使用，受主语人称、数、时态的限制",
+          "核心功能：构成时态/语态、否定/疑问结构、强调、倒装"
+        ],
+        "examples": {
+          "do/does/did": ["I don't like coffee.", "Did you finish your homework?"],
+          "have/has/had": ["I have finished my work.", "The house has been built."],
+          "will/would/shall/should": ["She will come tomorrow.", "We should study hard."],
+          "be动词": ["They are running.", "The letter was written by him."]
+        },
+        "commonMistakes": ["助动词后接动词过去式/第三人称单数", "时态助动词搭配错误", "否定句中助动词遗漏"],
+        "relatedNodes": ["3.1", "3.2", "5.3"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "____ he ____ (finish) his task yet? No, he hasn't.",
+          "answer": "Has; finished",
+          "analysis": "yet是现在完成时的标志，主语he为第三人称单数，助动词用has，后接动词过去分词finished"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.1.4",
+      "nodeName": "情态动词（can/may/must/should等）",
+      "parentId": "1.1.2.1",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示说话人的语气、情态，表达能力、许可、请求、必须、推测、建议等含义的动词，属于助动词的特殊类别",
+        "rules": [
+          "情态动词无人称和数的变化，后面必须接动词原形",
+          "可用于否定句、疑问句，有对应的过去式形式",
+          "部分情态动词可用于虚拟语气"
+        ],
+        "examples": {
+          "能力": ["I can speak English."],
+          "许可": ["May I come in?"],
+          "必须": ["You must obey the rules."],
+          "建议": ["You should go to see a doctor."],
+          "推测": ["It must rain tonight."]
+        },
+        "commonMistakes": ["情态动词后接动词不定式/to do", "must与have to用法混淆", "can与be able to用法混淆", "推测用法判断错误"],
+        "relatedNodes": ["5.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "You ____ be quiet in the library, or you will disturb others.",
+          "options": ["can", "may", "must", "would"],
+          "answer": "must",
+          "analysis": "must表示“必须”，强调强制性规定，符合图书馆的规则要求；can表能力，may表许可，would表意愿，均不符合句意"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.2",
+      "nodeName": "非谓语动词 Non-Finite Verbs【重难点】",
+      "parentId": "1.1.2",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "动词的非谓语形式，不受主语人称、数的限制，不能在句子中独立充当核心谓语，可充当主语、宾语、定语、状语、补语等多种成分，是中高阶英语语法的核心重难点",
+        "rules": ["有不定式、动名词、现在分词、过去分词四大形式", "有时态和语态的变化，保留动词的部分特征"],
+        "examples": {
+          "sentence": ["To see is to believe.", "Reading is good for us.", "The boy running there is my brother."]
+        },
+        "commonMistakes": ["非谓语与谓语动词用法混淆", "四种非谓语形式的句法功能与语义混淆", "时态/语态变形错误"],
+        "relatedNodes": ["1.1.2.2.1", "1.1.2.2.2", "1.1.2.2.3", "1.1.2.2.4", "2.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.2.2.1",
+      "nodeName": "不定式 (to do)",
+      "parentId": "1.1.2.2",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "非谓语动词的核心形式之一，基本结构为to + 动词原形，否定形式为not to do，可表将来、目的、具体动作，具备名词、形容词、副词的特征",
+        "rules": [
+          "句法功能：可作主语、宾语、表语、定语、状语、宾补",
+          "时态变化：一般式to do、进行式to be doing、完成式to have done",
+          "语态变化：主动式to do、被动式to be done",
+          "特殊用法：省略to的不定式（感官动词/使役动词后作宾补）、疑问词+不定式结构"
+        ],
+        "examples": {
+          "主语": ["To learn English well is very important."],
+          "宾语": ["She wants to buy a new dress."],
+          "目的状语": ["He came here to ask for help."],
+          "宾补": ["My mother asked me to clean the room."],
+          "省略to": ["I saw him enter the room."]
+        },
+        "commonMistakes": ["不定式的否定形式not位置错误", "省略to的不定式被动语态中to遗漏", "时态/语态与句子逻辑不匹配"],
+        "relatedNodes": ["1.1.2.2.2", "5.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "My teacher told me ____ late for class again.",
+          "options": ["not to be", "to not be", "don't be", "not be"],
+          "answer": "not to be",
+          "analysis": "不定式的否定形式为not to do，tell sb. not to do sth.是固定搭配，表“告诉某人不要做某事”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.2.2",
+      "nodeName": "动名词 (doing)",
+      "parentId": "1.1.2.2",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "动词的-ing形式之一，基本结构为动词原形+ing，否定形式为not doing，具备名词的特征，可在句中承担名词的所有句法功能，表习惯性、一般性的动作",
+        "rules": [
+          "句法功能：可作主语、宾语、表语、定语",
+          "时态变化：一般式doing、完成式having done",
+          "语态变化：主动式doing、被动式being done",
+          "特殊用法：介词后必须接动名词作宾语、动名词的复合结构（形容词性物主代词/名词所有格+doing）"
+        ],
+        "examples": {
+          "主语": ["Swimming is my favorite sport."],
+          "宾语": ["I enjoy reading novels."],
+          "介词宾语": ["He is good at playing basketball."],
+          "定语": ["This is a swimming pool."]
+        },
+        "commonMistakes": ["介词后接不定式", "只能接动名词作宾语的动词后误用不定式", "动名词与现在分词用法混淆"],
+        "relatedNodes": ["1.1.2.2.1", "1.1.2.2.3"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "Would you mind ____ (open) the window for me?",
+          "answer": "opening",
+          "analysis": "mind是固定接动名词作宾语的动词，mind doing sth.表示“介意做某事”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.2.3",
+      "nodeName": "现在分词 (doing)",
+      "parentId": "1.1.2.2",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "动词的-ing形式之一，与动名词同形但句法功能完全不同，具备形容词、副词的特征，表主动、进行的动作，可作定语、状语、表语、补语",
+        "rules": [
+          "句法功能：可作定语、状语、表语、宾补/主补，不能作主语/宾语",
+          "时态变化：一般式doing、完成式having done",
+          "语态变化：主动式doing、被动式being done",
+          "逻辑主语必须与句子的主语保持一致"
+        ],
+        "examples": {
+          "定语": ["The girl standing there is my sister."],
+          "状语": ["Hearing the news, she jumped with joy."],
+          "宾补": ["I saw him playing football on the playground."],
+          "表语": ["The film is very exciting."]
+        },
+        "commonMistakes": ["现在分词的逻辑主语与句子主语不一致", "现在分词与动名词用法混淆", "主动/被动逻辑判断错误"],
+        "relatedNodes": ["1.1.2.2.2", "1.1.2.2.4", "5.5"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "____ from the top of the mountain, we can see the whole city clearly.",
+          "options": ["Seeing", "Seen", "To see", "See"],
+          "answer": "Seeing",
+          "analysis": "see的逻辑主语是句子主语we，二者是主动关系，用现在分词作伴随状语；seen表被动，不符合逻辑"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.2.2.4",
+      "nodeName": "过去分词 (done)",
+      "parentId": "1.1.2.2",
+      "level": 5,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "动词的非谓语形式之一，基本结构为动词的过去分词（规则动词为动词原形+ed），否定形式为not done，具备形容词、副词的特征，表被动、完成的动作，可作定语、状语、表语、补语",
+        "rules": [
+          "句法功能：可作定语、状语、表语、宾补/主补，不能作主语/宾语",
+          "及物动词的过去分词表被动+完成，不及物动词的过去分词仅表完成",
+          "逻辑主语必须与句子的主语保持一致"
+        ],
+        "examples": {
+          "定语": ["This is a book written by Lu Xun."],
+          "状语": ["Seen from the top of the mountain, the city looks very beautiful."],
+          "宾补": ["He had his hair cut yesterday."],
+          "表语": ["He was surprised at the news."]
+        },
+        "commonMistakes": ["过去分词的逻辑主语与句子主语不一致", "主动/被动逻辑判断错误", "过去分词与现在分词用法混淆"],
+        "relatedNodes": ["1.1.2.2.3", "3.2", "5.5"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "____ (give) more time, I can finish the work better.",
+          "answer": "Given",
+          "analysis": "give的逻辑主语是句子主语I，二者是被动关系，用过去分词作条件状语，表“被给予更多时间”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.3",
+      "nodeName": "形容词 Adjectives",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来修饰名词或代词，表人或事物的性质、状态、特征、属性的词类，属于实词",
+        "rules": ["有原级、比较级、最高级的形态变化", "可在句中充当多种句法成分"],
+        "examples": {
+          "basic": ["big", "happy", "beautiful", "tall", "clever"],
+          "sentence": ["She is a beautiful girl."]
+        },
+        "commonMistakes": ["形容词与副词用法混淆", "定语排序错误", "比较级/最高级变形错误"],
+        "relatedNodes": ["1.1.3.1", "1.1.3.2", "1.1.3.3", "1.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.3.1",
+      "nodeName": "原级/比较级/最高级",
+      "parentId": "1.1.3",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "形容词的三级变化形式，用于表达人或事物的性质特征的不同程度，分为规则变化与不规则变化",
+        "rules": [
+          "规则变化：单音节词+er/est；以e结尾+r/st；辅音+y结尾变y为i+er/est；重读闭音节双写尾字母+er/est；多音节词前加more/most",
+          "不规则变化：特殊变形（good/well→better→best，bad/ill→worse→worst等）",
+          "原级用法：as + 原级 + as，否定not as/so + 原级 + as",
+          "比较级用法：比较级 + than，可修饰词much/far/a little/even等",
+          "最高级用法：the + 最高级 + 范围（in/of），表三者及以上的最高程度"
+        ],
+        "examples": {
+          "原级": ["She is as tall as her mother."],
+          "比较级": ["This room is bigger than that one."],
+          "最高级": ["This is the most interesting film I have ever seen."]
+        },
+        "commonMistakes": ["比较级前加the冗余", "more与-er重复使用", "比较对象不一致", "最高级范围介词in/of混淆"],
+        "relatedNodes": ["1.1.4.1", "5.5"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "The weather today is much ____ than yesterday.",
+          "options": ["hot", "hotter", "hottest", "more hot"],
+          "answer": "hotter",
+          "analysis": "than是比较级的标志，hot是重读闭音节词，比较级需双写尾字母t加er；much可修饰比较级，表程度"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.3.2",
+      "nodeName": "句法功能（定/表/补/状语）",
+      "parentId": "1.1.3",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "形容词在句子中可承担的多种句法成分，核心功能是修饰名词/代词",
+        "rules": [
+          "作定语：修饰名词，位于名词前（前置定语），修饰不定代词时位于其后（后置定语）",
+          "作表语：位于系动词后，补充说明主语的特征/状态",
+          "作宾语补足语：位于宾语后，补充说明宾语的状态/特征",
+          "作状语：多位于句首/句末，表原因、伴随、让步等"
+        ],
+        "examples": {
+          "定语": ["He is a clever boy.", "I have something important to tell you."],
+          "表语": ["The flowers are beautiful."],
+          "宾补": ["We should keep the classroom clean."],
+          "状语": ["Tired and hungry, he went back home."]
+        },
+        "commonMistakes": ["形容词修饰不定代词前置", "系动词后误用副词", "形容词作状语逻辑主语与句子主语不一致"],
+        "relatedNodes": ["2.1", "1.1.2.1.2"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "I have interesting something to share with you.",
+          "correction": "I have something interesting to share with you.",
+          "analysis": "形容词修饰不定代词something/anything/nothing等时，必须后置，不能前置"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.3.3",
+      "nodeName": "定语排序规则",
+      "parentId": "1.1.3",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "多个形容词同时修饰同一个名词时的固定排列顺序，是英语形容词用法的特殊规则",
+        "rules": [
+          "通用排序口诀：限观形龄色国材用",
+          "完整顺序：限定词（冠词/物主代词/数词）→ 观点描绘词 → 形状/大小 → 年龄/新旧 → 颜色 → 国籍/产地 → 材料 → 用途/类别 + 名词"
+        ],
+        "examples": {
+          "basic": ["a beautiful small old brown Chinese wooden writing desk"],
+          "sentence": ["He bought a lovely big round new black French plastic toy."]
+        },
+        "commonMistakes": ["形容词排序顺序混乱", "限定词位置错误"],
+        "relatedNodes": ["1.1.3.2", "1.1.9"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "She has a ____ dress.",
+          "options": ["red silk beautiful", "beautiful red silk", "silk red beautiful", "beautiful silk red"],
+          "answer": "beautiful red silk",
+          "analysis": "按照形容词排序规则，观点描绘词beautiful在前，颜色red居中，材料silk在后，符合“观色材”的顺序"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.4",
+      "nodeName": "副词 Adverbs",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来修饰动词、形容词、其他副词或整个句子，表动作的时间、地点、方式、程度、频度等含义的词类",
+        "rules": ["多数副词由形容词+ly构成", "有原级、比较级、最高级的形态变化", "在句中主要作状语"],
+        "examples": {
+          "basic": ["quickly", "very", "often", "here", "tomorrow"],
+          "sentence": ["He runs very quickly."]
+        },
+        "commonMistakes": ["形容词与副词用法混淆", "副词在句中的位置错误", "比较级/最高级变形错误"],
+        "relatedNodes": ["1.1.4.1", "1.1.4.2", "1.1.4.3", "1.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.4.1",
+      "nodeName": "分类（时间/地点/方式/程度/频度等）",
+      "parentId": "1.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "根据副词的语义与句法功能，划分的核心类别，不同类别的副词在句中的位置有固定规则",
+        "rules": [
+          "时间副词：表动作发生的时间，如now/tomorrow/already/yet",
+          "地点副词：表动作发生的地点，如here/there/up/down/abroad",
+          "方式副词：表动作的方式，多为形容词+ly构成，如quickly/carefully/happily",
+          "程度副词：表动作或状态的程度，如very/quite/too/so/enough",
+          "频度副词：表动作发生的频率，如always/often/sometimes/seldom/never",
+          "疑问/连接/关系副词：用于引导疑问句、从句，如when/where/why/how"
+        ],
+        "examples": {
+          "时间副词": ["I will go to Beijing tomorrow."],
+          "频度副词": ["He often gets up at 6 o'clock."],
+          "方式副词": ["She writes carefully."],
+          "程度副词": ["The movie is very interesting."]
+        },
+        "commonMistakes": ["频度副词在句中的位置错误", "enough修饰形容词/副词时位置错误", "yet/already用法混淆"],
+        "relatedNodes": ["1.1.4.2", "4.2", "4.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "He is ____ old to walk so long a distance.",
+          "options": ["very", "quite", "too", "enough"],
+          "answer": "too",
+          "analysis": "too...to...是固定结构，表“太……而不能……”，符合句意；enough修饰形容词时需后置，very/quite无此结构"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.4.2",
+      "nodeName": "原级/比较级/最高级",
+      "parentId": "1.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "副词的三级变化形式，用于表达动作的程度、方式等的不同等级，变化规则与形容词基本一致",
+        "rules": [
+          "规则变化：单音节副词+er/est；以ly结尾的副词前加more/most",
+          "不规则变化：特殊变形（well→better→best，badly→worse→worst，far→farther/further→farthest/furthest等）",
+          "原级用法：as + 原级 + as，否定not as/so + 原级 + as",
+          "比较级用法：比较级 + than，可修饰词much/far/a little等",
+          "最高级用法：(the) + 最高级 + 范围，副词最高级前的the可省略"
+        ],
+        "examples": {
+          "原级": ["He can run as fast as his brother."],
+          "比较级": ["She studies harder than before."],
+          "最高级": ["He works (the) most carefully in his class."]
+        },
+        "commonMistakes": ["以ly结尾的副词比较级误用-er形式", "比较级修饰词误用very", "比较对象不一致"],
+        "relatedNodes": ["1.1.3.1", "5.5"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "She sings ____ (well) than any other student in her class.",
+          "answer": "better",
+          "analysis": "than是比较级的标志，well的比较级为不规则变形better"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.4.3",
+      "nodeName": "句法功能（状语/表/定）",
+      "parentId": "1.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "副词在句子中可承担的句法成分，核心功能是作状语",
+        "rules": [
+          "作状语：核心功能，修饰动词、形容词、其他副词或整个句子，可位于句首、句中、句末",
+          "作表语：少数地点/时间副词可位于系动词后作表语，表主语的位置/状态",
+          "作定语：少数地点/时间副词可位于名词后作后置定语"
+        ],
+        "examples": {
+          "状语": ["He drives carefully.", "Luckily, he passed the exam."],
+          "表语": ["He is out now.", "The light is on."],
+          "定语": ["The people here are very friendly.", "I met her on my way home."]
+        },
+        "commonMistakes": ["副词修饰名词前置", "用形容词修饰动词，误用副词"],
+        "relatedNodes": ["2.1", "1.1.3.2"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "He is extreme happy to hear the good news.",
+          "correction": "He is extremely happy to hear the good news.",
+          "analysis": "happy是形容词，需要用副词extremely修饰，不能用形容词extreme"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.5",
+      "nodeName": "代词 Pronouns",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来代替名词、数词、形容词的词类，可避免重复，使句子更简洁，是英语中高频使用的虚词",
+        "rules": ["有人称、数、格的变化", "需与所指代的名词在人称、数、性别上保持一致"],
+        "examples": {
+          "basic": ["I", "you", "he", "this", "some", "who"],
+          "sentence": ["This is my book. It is very interesting."]
+        },
+        "commonMistakes": ["代词的格误用", "指代不一致", "形容词性与名词性物主代词混淆"],
+        "relatedNodes": ["1.1.5.1", "1.1.5.2", "1.1.5.3", "1.1.5.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.5.1",
+      "nodeName": "人称/物主/反身代词",
+      "parentId": "1.1.5",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "代词的核心基础类别，分别用于指代人/事物、表所属关系、表动作反射到动作发出者本身",
+        "rules": [
+          "人称代词：有主格/宾格、单复数、人称变化，主格作主语，宾格作宾语/表语",
+          "物主代词：分为形容词性物主代词（后必须接名词）和名词性物主代词（后不接名词，相当于形容词性物主代词+名词）",
+          "反身代词：结构为第一/二人称形容词性物主代词+self/selves，第三人称宾格+self/selves，可作宾语、表语、同位语"
+        ],
+        "examples": {
+          "人称代词": ["I (主格) love her (宾格)."],
+          "物主代词": ["This is my (形容词性) book. This book is mine (名词性)."],
+          "反身代词": ["She can look after herself.", "I myself finished the work."]
+        },
+        "commonMistakes": ["主格与宾格混淆", "形容词性物主代词后不接名词", "名词性物主代词后接名词", "反身代词单复数变形错误"],
+        "relatedNodes": ["2.1", "1.1.1.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "This is not my pen. ____ is in my pencil case.",
+          "options": ["My", "Mine", "I", "Myself"],
+          "answer": "Mine",
+          "analysis": "空格后无名词，需要用名词性物主代词mine，相当于my pen，在句中作主语"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.5.2",
+      "nodeName": "指示/疑问/关系代词",
+      "parentId": "1.1.5",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "代词的核心类别，分别用于指示人/事物、引导特殊疑问句、引导定语从句",
+        "rules": [
+          "指示代词：this/that/these/those，可作主语、宾语、表语、定语，表近指/远指",
+          "疑问代词：who/whom/whose/what/which，用于引导特殊疑问句，在句中充当一定成分",
+          "关系代词：who/whom/whose/which/that/as，用于引导定语从句，指代先行词，在从句中充当成分"
+        ],
+        "examples": {
+          "指示代词": ["This is my bike. That is his bike."],
+          "疑问代词": ["What are you doing?", "Which book do you like?"]
+        },
+        "commonMistakes": ["this/that指代混淆", "who/whom格误用", "定语从句中关系代词的省略规则误用"],
+        "relatedNodes": ["4.2"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "The girl ____ is standing there is my best friend.",
+          "answer": "who/that",
+          "analysis": "空格处为定语从句的关系代词，先行词the girl指人，在从句中作主语，用who或that"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.5.3",
+      "nodeName": "不定/相互代词",
+      "parentId": "1.1.5",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "不定代词用来指代不特定的人/事物/数量，相互代词用来表示相互关系",
+        "rules": [
+          "不定代词：分为可数（many/few/a few）、不可数（much/little/a little）、可兼用（some/any/all/none等），修饰单数名词时谓语动词用单数",
+          "复合不定代词：something/anything/nothing/everyone等，作主语时谓语动词用单数，形容词修饰时后置",
+          "相互代词：each other/one another，表相互关系，可加's构成所有格"
+        ],
+        "examples": {
+          "不定代词": ["Some students are in the classroom.", "There is nothing wrong with your computer."],
+          "相互代词": ["We should help each other.", "They know each other's hobbies."]
+        },
+        "commonMistakes": ["some/any用法混淆", "few/little/a few/a little语义混淆", "复合不定代词作主语时谓语动词用复数"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "There is ____ water in the bottle. We need to buy some.",
+          "options": ["little", "a little", "few", "a few"],
+          "answer": "little",
+          "analysis": "water是不可数名词，用little/a little修饰；little表否定含义“几乎没有”，符合“需要买一些”的句意；a little表肯定“有一点”，不符合语境"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.5.4",
+      "nodeName": "it的特殊用法",
+      "parentId": "1.1.5",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "代词it除了指代前文提到的单数事物/动物/婴儿外，还有多种特殊句法功能，是英语中用法最灵活的代词",
+        "rules": [
+          "作形式主语：代替句末的真正主语（不定式/动名词/主语从句），避免句子头重脚轻",
+          "作形式宾语：代替句末的真正宾语（不定式/动名词/宾语从句），用于固定结构",
+          "用于强调句：It is/was + 被强调部分 + that/who + 其他部分",
+          "指代时间、天气、距离、温度、环境等无生命内容",
+          "用于固定句型，如It takes sb. some time to do sth."
+        ],
+        "examples": {
+          "形式主语": ["It is important to learn English well."],
+          "形式宾语": ["I find it easy to learn English well."],
+          "强调句": ["It was yesterday that I met her in the street."],
+          "指代天气": ["It is sunny today."]
+        },
+        "commonMistakes": ["形式主语/形式宾语中用this/that代替it", "强调句中连接词误用", "it与one/that指代混淆"],
+        "relatedNodes": ["5.3", "4.1.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "____ is very kind of you to help me with my English.",
+          "options": ["This", "That", "It", "What"],
+          "answer": "It",
+          "analysis": "it作形式主语，代替句末的真正主语to help me with my English，It is + 形容词 + of sb. to do sth.是固定句型"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.6",
+      "nodeName": "数词 Numerals",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示数量、顺序、编号的词类，分为基数词和序数词两大类",
+        "rules": ["基数词表数量，序数词表顺序", "可在句中充当主语、宾语、表语、定语"],
+        "examples": {
+          "basic": ["one", "ten", "first", "tenth"],
+          "sentence": ["I have three books. This is the first one."]
+        },
+        "commonMistakes": ["基数词与序数词混淆", "hundred/thousand/million用法错误", "分数表达错误"],
+        "relatedNodes": ["1.1.6.1", "1.1.6.2", "1.1.6.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.6.1",
+      "nodeName": "基数词/序数词",
+      "parentId": "1.1.6",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "数词的两大核心类别，基数词表示人或事物的数量，序数词表示人或事物的顺序",
+        "rules": [
+          "基数词：1-12为特殊形式，13-19以-teen结尾，20-90整十以-ty结尾，百位与十位之间加and",
+          "序数词：1-3为特殊变形（first/second/third），4-19多数在基数词后加-th，整十数变y为ie加-th，多位数仅最后一位变序数词",
+          "序数词前通常加定冠词the，表“又一、再一”时可加不定冠词a/an",
+          "hundred/thousand/million等：前有具体数字时用单数，无具体数字时加s+of表概数"
+        ],
+        "examples": {
+          "基数词": ["one", "twenty", "one hundred and twenty-three", "three thousand students"],
+          "序数词": ["fourth", "twentieth", "one hundred and twenty-third", "a second time"]
+        },
+        "commonMistakes": ["序数词变形错误", "hundred/thousand单复数与of用法混淆", "序数词前the遗漏"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "There are ____ (hundred) of people in the square on National Day.",
+          "answer": "hundreds",
+          "analysis": "前无具体数字，用hundreds of固定搭配，表“成百上千的”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.6.2",
+      "nodeName": "分数/小数/百分数",
+      "parentId": "1.1.6",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "数词的特殊表达形式，用于表示非整数的数量",
+        "rules": [
+          "分数：分子用基数词，分母用序数词；分子大于1时，分母序数词加s；分数作主语时，谓语动词单复数由of后的名词决定",
+          "小数：小数点前用基数词，小数点后逐个读数字，小数点读作point",
+          "百分数：基数词 + percent，percent无复数形式，作主语时谓语动词单复数由of后的名词决定"
+        ],
+        "examples": {
+          "分数": ["1/3: one third", "3/4: three quarters", "Two fifths of the students are boys."],
+          "小数": ["0.5: zero point five", "12.34: twelve point three four"],
+          "百分数": ["50%: fifty percent", "Thirty percent of the water is polluted."]
+        },
+        "commonMistakes": ["分数分母变形错误", "percent误用复数形式", "分数/百分数作主语时主谓一致错误"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "Three quarters of the land ____ covered with trees.",
+          "options": ["is", "are", "have", "has"],
+          "answer": "is",
+          "analysis": "land是不可数名词，分数作主语时，谓语动词单复数由of后的名词决定，因此用单数is"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.6.3",
+      "nodeName": "时刻/日期/编号表达",
+      "parentId": "1.1.6",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "数词在日常场景中的固定表达用法",
+        "rules": [
+          "时刻：顺读法（小时+分钟），逆读法（分钟+past/to+小时，≤30分钟用past，>30分钟用to），整点加o'clock",
+          "日期：年用基数词，日用序数词；英式表达日/月/年，美式表达月/日/年",
+          "编号：名词+基数词（首字母大写），或the + 序数词 + 名词"
+        ],
+        "examples": {
+          "时刻": ["8:05: five past eight", "9:40: twenty to ten", "12:00: twelve o'clock"],
+          "日期": ["2024年5月20日：May 20th, 2024（美式）/ 20th May, 2024（英式）"],
+          "编号": ["Room 305", "the first lesson"]
+        },
+        "commonMistakes": ["时刻逆读法past/to用法混淆", "日期书写格式错误", "编号中序数词前the遗漏"],
+        "relatedNodes": ["1.1.4.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "We will have a meeting at ____ (10:45) tomorrow morning.",
+          "options": ["a quarter to ten", "a quarter past ten", "a quarter to eleven", "three quarters past ten"],
+          "answer": "a quarter to eleven",
+          "analysis": "10:45距离11点差15分钟，用to结构，a quarter to eleven是正确表达；past用于分钟≤30的情况，不符合"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.7",
+      "nodeName": "介词 Prepositions",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "用来表示名词/代词与句中其他成分之间关系的虚词，不能独立充当句子成分，必须后接名词/代词/动名词构成介词短语",
+        "rules": ["介词后必须接宾语，构成介词短语", "介词短语可在句中作定语、状语、表语、补语"],
+        "examples": {
+          "basic": ["in", "on", "at", "for", "with", "about"],
+          "sentence": ["She goes to school at 7 o'clock in the morning."]
+        },
+        "commonMistakes": ["介词后接动词原形", "时间/地点介词用法混淆", "固定搭配中介词误用"],
+        "relatedNodes": ["1.1.7.1", "1.1.7.2", "1.1.7.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.7.1",
+      "nodeName": "时间/地点/方式介词",
+      "parentId": "1.1.7",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "介词的三大核心类别，分别用于表示动作发生的时间、地点、方式",
+        "rules": [
+          "时间介词：at用于具体时刻/节日；on用于具体日期/星期/具体某一天的早中晚；in用于年/月/季节/泛指的早中晚/将来时的一段时间后",
+          "地点介词：at用于小地点/具体地址；in用于大地点/空间内部；on用于物体表面/接壤的地点；to用于不接壤的地点",
+          "方式介词：by表交通方式/手段；with表工具/伴随；in表语言/材料/方式；through表通过途径/过程"
+        ],
+        "examples": {
+          "时间介词": ["at 8 o'clock", "on Monday morning", "in summer"],
+          "地点介词": ["at the airport", "in Shanghai", "on the table"],
+          "方式介词": ["by bus", "write with a pen", "speak in English"]
+        },
+        "commonMistakes": ["时间介词in/on/at用法混淆", "地点介词in/on/to用法混淆", "by+交通工具中间加冠词"],
+        "relatedNodes": ["1.1.4.1", "4.3.1", "4.3.2"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "My birthday is ____ July 1st, and I usually have a party ____ the evening of that day.",
+          "options": ["in; in", "on; on", "on; in", "in; on"],
+          "answer": "on; on",
+          "analysis": "具体日期July 1st前用介词on；具体某一天的早中晚the evening of that day前也用介词on"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.7.2",
+      "nodeName": "固定搭配",
+      "parentId": "1.1.7",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "介词与动词、形容词、名词构成的固定短语，是英语介词的核心考点，无统一规则，需结合语义记忆",
+        "rules": [
+          "动词+介词：listen to, look at, wait for, depend on, worry about等",
+          "形容词+介词：be good at, be interested in, be afraid of, be responsible for等",
+          "名词+介词：the key to, the reason for, the solution to, the attitude towards等",
+          "介词短语固定搭配：in the end, on time, in fact, by accident, in order to等"
+        ],
+        "examples": {
+          "动词+介词": ["I am waiting for the bus."],
+          "形容词+介词": ["She is interested in painting."],
+          "名词+介词": ["This is the key to the door."]
+        },
+        "commonMistakes": ["固定搭配中介词误用", "及物动词后多余加介词", "介词后接动词原形"],
+        "relatedNodes": ["1.1.2.1.1", "1.1.3"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "We should be responsible ____ what we have done.",
+          "answer": "for",
+          "analysis": "be responsible for是固定搭配，表“对……负责”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.7.3",
+      "nodeName": "介词短语句法功能",
+      "parentId": "1.1.7",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "介词与宾语构成的介词短语在句子中可承担的多种句法成分",
+        "rules": [
+          "作状语：最核心功能，表时间、地点、方式、原因、目的、条件、让步等，可位于句首或句末",
+          "作定语：位于名词后，修饰名词，表所属、特征、时间、地点等",
+          "作表语：位于系动词后，补充说明主语的位置、状态、特征等",
+          "作宾语补足语：位于宾语后，补充说明宾语的状态、位置等"
+        ],
+        "examples": {
+          "状语": ["He gets up at 6 o'clock every day."],
+          "定语": ["The girl in red is my sister."],
+          "表语": ["He is in the classroom now."],
+          "宾补": ["We should keep our books in good order."]
+        },
+        "commonMistakes": ["介词短语作定语前置", "介词短语作状语时逻辑混乱", "简单句中介词短语充当谓语"],
+        "relatedNodes": ["2.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "In the sentence \"The man with a hat is my father.\", the prepositional phrase \"with a hat\" acts as ____.",
+          "options": ["adverbial", "attributive", "predicative", "object complement"],
+          "answer": "attributive",
+          "analysis": "with a hat位于名词the man后，修饰the man，作定语，表“戴帽子的男人”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.8",
+      "nodeName": "连词 Conjunctions",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "用来连接单词、短语、句子的虚词，不能独立充当句子成分，分为并列连词和从属连词两大类，是构建并列句与复合句的核心",
+        "rules": ["并列连词连接语法地位平等的成分/句子", "从属连词引导从句，连接主句与从句"],
+        "examples": {
+          "basic": ["and", "but", "or", "because", "if", "when"],
+          "sentence": ["I like apples and bananas, but my brother likes oranges."]
+        },
+        "commonMistakes": ["并列连词连接的成分语法地位不一致", "because与so连用", "though/although与but连用"],
+        "relatedNodes": ["1.1.8.1", "1.1.8.2", "2.3", "4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.8.1",
+      "nodeName": "并列连词（and/but/or等）",
+      "parentId": "1.1.8",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "用来连接语法地位平等的单词、短语、分句的连词，连接的分句构成并列句，分为联合、转折、选择、因果四大类",
+        "rules": [
+          "联合连词：and, both...and..., not only...but also..., neither...nor..., as well as，表并列、递进关系",
+          "转折连词：but, however, yet, while, whereas，表转折、对比关系",
+          "选择连词：or, either...or..., otherwise，表选择、否则的含义",
+          "因果连词：for, so，表原因、结果关系"
+        ],
+        "examples": {
+          "联合": ["She can sing and dance."],
+          "转折": ["He is young, but he knows a lot."],
+          "选择": ["Hurry up, or you will be late."],
+          "因果": ["It rained heavily, so we stayed at home."]
+        },
+        "commonMistakes": ["not only...but also.../either...or.../neither...nor...主谓一致错误", "but与however用法混淆", "so与because连用"],
+        "relatedNodes": ["2.3", "3.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "Get up early, ____ you will miss the early bus.",
+          "options": ["and", "but", "or", "so"],
+          "answer": "or",
+          "analysis": "or表“否则”，符合“早点起床，否则你会错过早班车”的句意；and表并列，but表转折，so表结果，均不符合语境"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.8.2",
+      "nodeName": "从属连词（引导从句）",
+      "parentId": "1.1.8",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "用来引导从句的连词，连接主句与从句，使从句在主句中充当一定的句法成分，是构建复合句的核心",
+        "rules": [
+          "引导名词性从句：that, whether, if，无实际语义或表“是否”，在从句中不充当成分（除what/which等连接代词）",
+          "引导定语从句：who/whom/whose/which/that等关系代词，when/where/why等关系副词",
+          "引导状语从句：when/while/as（时间）, because/since/as（原因）, if/unless（条件）, though/although（让步）等"
+        ],
+        "examples": {
+          "名词性从句": ["I know that he is a good student."],
+          "状语从句": ["I will go shopping if it doesn't rain tomorrow."]
+        },
+        "commonMistakes": ["宾语从句中that与what混淆", "if与whether用法混淆", "状语从句中时态错误"],
+        "relatedNodes": ["4"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "I don't know ____ he will come to the party or not.",
+          "answer": "whether",
+          "analysis": "引导宾语从句，句末有or not时，只能用whether，不能用if，表“是否”"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.9",
+      "nodeName": "冠词 Articles",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "位于名词前，用来限定名词所指的人或事物的虚词，是英语中最小的词类，分为定冠词、不定冠词、零冠词三类",
+        "rules": ["不定冠词a/an表泛指，定冠词the表特指", "只能与名词搭配使用，不能独立使用"],
+        "examples": {
+          "basic": ["a", "an", "the"],
+          "sentence": ["There is a cat under the tree. The cat is black."]
+        },
+        "commonMistakes": ["a/an用法混淆", "泛指/特指判断错误", "固定搭配中冠词误用/冗余"],
+        "relatedNodes": ["1.1.9.1", "1.1.9.2", "1.1.9.3", "1.1.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.1.9.1",
+      "nodeName": "定冠词the",
+      "parentId": "1.1.9",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "定冠词the，表特指，用来限定特定的、双方都知道的、上文提到过的人或事物，可修饰可数名词单复数、不可数名词",
+        "rules": [
+          "核心用法：特指双方都明确的人/事物；特指上文提到过的人/事物；特指世界上独一无二的事物",
+          "其他用法：用在序数词/形容词最高级前；用在单数可数名词前表一类人/事物；用在江河湖海、山脉、群岛、普通名词构成的专有名词前；用在乐器名词前；用在固定搭配中"
+        ],
+        "examples": {
+          "特指": ["The book on the desk is mine."],
+          "独一无二": ["the sun", "the moon", "the earth"],
+          "最高级/序数词": ["the tallest student", "the first lesson"],
+          "乐器": ["play the piano"]
+        },
+        "commonMistakes": ["球类运动前加the", "泛指的名词前加the", "形容词最高级前the遗漏"],
+        "relatedNodes": ["1.1.9.2", "1.1.9.3", "1.1.3.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "He is ____ tallest boy in our class.",
+          "options": ["a", "an", "the", "/"],
+          "answer": "the",
+          "analysis": "形容词最高级tallest前必须加定冠词the，表特定范围内的最高程度"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.9.2",
+      "nodeName": "不定冠词a/an",
+      "parentId": "1.1.9",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "不定冠词a/an，表泛指，用来修饰单数可数名词，表“一个、某一个、一类”，a用于辅音音素开头的单词前，an用于元音音素开头的单词前",
+        "rules": [
+          "核心用法：泛指一类人/事物中的任意一个；首次提到的人/事物，表“一个”；表“每一”，相当于per；用于固定搭配中",
+          "关键规则：a/an的选择取决于单词开头的音素（发音），而非字母，如an hour, a university"
+        ],
+        "examples": {
+          "泛指": ["I have a new bike."],
+          "一类人/事物": ["A dog is a friendly animal."],
+          "每一": ["three times a week"],
+          "an用法": ["an apple", "an honest boy", "an umbrella"]
+        },
+        "commonMistakes": ["根据单词首字母而非发音选择a/an", "不可数名词前加a/an", "复数名词前加a/an"],
+        "relatedNodes": ["1.1.9.1", "1.1.9.3", "1.1.1.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "My father is ____ engineer, and he works in ____ big company.",
+          "options": ["a; an", "an; a", "an; an", "a; a"],
+          "answer": "an; a",
+          "analysis": "engineer以元音音素开头，用an；big以辅音音素开头，用a"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.9.3",
+      "nodeName": "零冠词用法",
+      "parentId": "1.1.9",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "零冠词，即名词前不加任何冠词的情况，也叫不加冠词用法，多用于泛指、固定搭配、特定类别名词前",
+        "rules": [
+          "核心用法：复数可数名词、不可数名词表泛指一类人/事物时；专有名词（人名、地名、国家名等）前；季节、月份、星期、节日前；三餐、球类运动、学科名词前；固定搭配中"
+        ],
+        "examples": {
+          "泛指": ["Books are our best friends.", "Water is very important for us."],
+          "专有名词": ["Beijing", "China", "Tom"],
+          "季节/月份/星期": ["in summer", "in May", "on Sunday"],
+          "三餐/球类/学科": ["have lunch", "play basketball", "study English"]
+        },
+        "commonMistakes": ["三餐/球类运动前加冠词", "特指的名词前用零冠词", "季节/月份前有修饰词时零冠词误用"],
+        "relatedNodes": ["1.1.9.1", "1.1.9.2", "1.1.1.1"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "My brother likes to play the football after school.",
+          "correction": "My brother likes to play football after school.",
+          "analysis": "球类运动名词前用零冠词，不能加定冠词the"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.1.10",
+      "nodeName": "感叹词 Interjections",
+      "parentId": "1.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来表达喜怒哀乐等强烈情感的词类，与句子其他成分无语法关联，通常位于句首，用逗号/感叹号隔开",
+        "rules": ["无词性变化，不充当句子成分，仅表达情感语气"],
+        "examples": {
+          "basic": ["oh", "wow", "ah", "oh dear", "well", "hello"],
+          "sentence": ["Wow! What a beautiful dress!", "Oh, I forgot my key."]
+        },
+        "commonMistakes": ["感叹词与句子其他成分用句号错误连接"],
+        "relatedNodes": ["2.3.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.2",
+      "nodeName": "构词法 · Word Formation",
+      "parentId": "1",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "英语词汇的构成规则与方法，掌握构词法可快速扩大词汇量，理解生词含义，是词法学习的辅助核心模块",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["前缀/后缀语义混淆", "词性转化后用法错误"],
+        "relatedNodes": ["1.2.1", "1.2.2", "1.2.3", "1.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.2.1",
+      "nodeName": "派生法（前缀/后缀）",
+      "parentId": "1.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语最核心的构词法，在词根前加前缀、词根后加后缀，构成新词，前缀通常改变词义，后缀通常改变词性",
+        "rules": [
+          "前缀：加在词根前，不改变词性，仅改变词义，如un-（否定）、dis-（否定）、re-（重复）、im-（否定）、super-（超）等",
+          "后缀：加在词根后，通常改变词性，部分改变词义，如名词后缀（-tion/-ment/-er/-ness）、形容词后缀（-ful/-less/-able/-ous）、动词后缀（-en/-ize）、副词后缀（-ly）"
+        ],
+        "examples": {
+          "前缀": ["happy → unhappy", "like → dislike", "write → rewrite", "possible → impossible"],
+          "后缀": ["act → action", "develop → development", "care → careful/careless", "quick → quickly"]
+        },
+        "commonMistakes": ["否定前缀un-/dis-/im-用法混淆", "后缀导致的词性变化后句法功能误用"],
+        "relatedNodes": ["1.1"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "It is ____ (possible) for me to finish the work in such a short time.",
+          "answer": "impossible",
+          "analysis": "加否定前缀im-，构成impossible，表“不可能的”，符合句意"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.2.2",
+      "nodeName": "合成法",
+      "parentId": "1.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "将两个或多个独立的单词合并在一起，构成新词的方法，合成词的词义通常是两个单词词义的结合",
+        "rules": [
+          "合成名词：名词+名词、形容词+名词、动词+名词等，如classroom, blackboard, playground",
+          "合成形容词：形容词+名词-ed、形容词/副词+现在分词/过去分词、名词+形容词等，如kind-hearted, hard-working, well-known",
+          "合成动词：名词+动词、副词+动词等，如blackmail, overcome"
+        ],
+        "examples": {
+          "合成名词": ["class + room → classroom", "foot + ball → football"],
+          "合成形容词": ["good + looking → good-looking", "snow + white → snow-white"],
+          "合成动词": ["break + through → breakthrough"]
+        },
+        "commonMistakes": ["合成名词复数变形错误", "合成形容词连字符使用错误"],
+        "relatedNodes": ["1.2.1", "1.2.3", "1.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "1.2.3",
+      "nodeName": "转化法",
+      "parentId": "1.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "不改变词的形态，直接将一种词类转化为另一种词类来使用的构词方法，是英语中常见且灵活的构词方式",
+        "rules": [
+          "名词→动词：如water(水→浇水), name(名字→命名), hand(手→传递)",
+          "动词→名词：如look(看→样子), walk(走→散步), swim(游泳→游泳运动)",
+          "形容词→动词：如empty(空的→倒空), clean(干净的→打扫), slow(慢的→放慢)",
+          "形容词→名词：如rich(富有的→富人), poor(贫穷的→穷人), young(年轻的→年轻人)"
+        ],
+        "examples": {
+          "名词→动词": ["Please water the flowers.", "They named the baby Tom."],
+          "动词→名词": ["Have a look at this picture.", "Let's go for a walk."],
+          "形容词→动词": ["Empty the bottle before recycling.", "Slow down, please."],
+          "形容词→名词": ["The rich should help the poor.", "The young are full of energy."]
+        },
+        "commonMistakes": ["转化后词性判断错误", "转化词与原词用法混淆"],
+        "relatedNodes": ["1.1", "1.2.1", "1.2.2"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "Please ____ (water) the plants every day.",
+          "answer": "water",
+          "analysis": "water由名词“水”转化为动词“浇水”，在句中作谓语动词"
+        }
+      ]
+    },
+    {
+      "nodeId": "1.2.4",
+      "nodeName": "缩写/截短法",
+      "parentId": "1.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "通过截取单词的一部分或合并多个单词来构成新词的方法，常见于非正式语体和口语中",
+        "rules": [
+          "截短法：截取单词的一部分，如telephone→phone, advertisement→ad, laboratory→lab",
+          "首字母缩略法：取各词首字母组成，如NASA(National Aeronautics and Space Administration), UFO(Unidentified Flying Object)",
+          "首字母拼音法：按字母读音读出，如CD, BBC, VIP",
+          "混合法：合并两个单词的部分，如breakfast+lunch→brunch, smoke+fog→smog"
+        ],
+        "examples": {
+          "截短法": ["phone(telephone)", "photo(photograph)", "fridge(refrigerator)"],
+          "首字母缩略": ["UN(United Nations)", "UK(United Kingdom)", "USA(United States of America)"],
+          "首字母拼音": ["CCTV", "NBA", "GDP"],
+          "混合法": ["brunch(breakfast+lunch)", "smog(smoke+fog)", "motel(motor+hotel)"]
+        },
+        "commonMistakes": ["缩写形式与原形使用场合混淆", "首字母缩略词读音错误"],
+        "relatedNodes": ["1.2.1", "1.2.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2",
+      "nodeName": "句子基础 · Sentence Basics",
+      "parentId": "root",
+      "level": 1,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语句子的核心构成要素与基本结构，是理解英语句法的基础模块，涵盖句子成分、基本句型和句子分类",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["句子成分划分错误", "基本句型混淆", "句子类型判断错误"],
+        "relatedNodes": ["2.1", "2.2", "2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.1",
+      "nodeName": "句子核心成分 · Sentence Components",
+      "parentId": "2",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "构成英语句子的基本语法成分，包括主语、谓语、宾语、表语、定语、状语、补语、同位语八大核心成分",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["成分划分不清", "主谓宾与主系表混淆", "定语与状语区分困难"],
+        "relatedNodes": ["2.1.1", "2.1.2", "2.1.3", "2.1.4", "2.1.5", "2.1.6", "2.1.7", "2.1.8"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.1.1",
+      "nodeName": "主语 Subject",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "句子中动作的执行者或被说明的对象，是句子的主体，通常位于句首",
+        "rules": [
+          "可由名词、代词、数词、不定式、动名词、从句等充当",
+          "主语与谓语动词必须在人称和数上保持一致"
+        ],
+        "examples": {
+          "名词": ["The boy runs fast."],
+          "代词": ["She loves music."],
+          "不定式": ["To learn English is important."],
+          "动名词": ["Swimming is good exercise."],
+          "从句": ["What he said is true."]
+        },
+        "commonMistakes": ["主谓一致错误", "主语缺失", "形式主语与真正主语混淆"],
+        "relatedNodes": ["1.1.1", "1.1.5", "3.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "____ is important to learn English well.",
+          "options": ["This", "That", "It", "What"],
+          "answer": "It",
+          "analysis": "it作形式主语，代替句末的真正主语to learn English well"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.1.2",
+      "nodeName": "谓语 Predicate",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "说明主语的动作、状态或特征，是句子的核心部分，由动词或动词短语充当",
+        "rules": [
+          "简单谓语：由一个动词或动词短语构成",
+          "复合谓语：由情态动词/助动词+动词构成，或由系动词+表语构成",
+          "一个简单句通常只有一个谓语动词（并列谓语除外）"
+        ],
+        "examples": {
+          "简单谓语": ["He works hard.", "They play football."],
+          "复合谓语": ["She can swim.", "He is a teacher."]
+        },
+        "commonMistakes": ["简单句中出现多个谓语动词", "谓语与主语不一致", "系动词后接副词"],
+        "relatedNodes": ["1.1.2", "3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.1.3",
+      "nodeName": "宾语 Object（直宾/间宾）",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "动作的承受者，位于及物动词或介词后，分为直接宾语和间接宾语",
+        "rules": [
+          "直接宾语：动作的直接对象，通常是物",
+          "间接宾语：动作的间接对象，通常是人，位于直接宾语之前",
+          "双宾语结构：主语+谓语+间接宾语+直接宾语，或主语+谓语+直接宾语+to/for+间接宾语"
+        ],
+        "examples": {
+          "直接宾语": ["I bought a book."],
+          "间接宾语": ["He gave me a pen."],
+          "双宾语转换": ["She sent him a letter. = She sent a letter to him."]
+        },
+        "commonMistakes": ["双宾语位置错误", "to/for介词混淆", "宾语与表语混淆"],
+        "relatedNodes": ["2.2.3", "2.2.4"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "He explained me the problem.",
+          "correction": "He explained the problem to me.",
+          "analysis": "explain后接双宾语时，间接宾语前需加介词to，不能直接用explain sb. sth.结构"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.1.4",
+      "nodeName": "表语 Predicative",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "位于系动词后，说明主语的身份、特征、状态或类属，与主语构成系表结构",
+        "rules": [
+          "可由名词、代词、形容词、数词、不定式、动名词、分词、介词短语、从句等充当",
+          "表语与主语在数上通常保持一致"
+        ],
+        "examples": {
+          "名词": ["He is a doctor."],
+          "形容词": ["The flower is beautiful."],
+          "介词短语": ["They are in the classroom."],
+          "从句": ["The problem is that we don't have enough time."]
+        },
+        "commonMistakes": ["系动词后误用副词", "表语与宾语混淆", "系动词选择错误"],
+        "relatedNodes": ["1.1.2.1.2", "2.2.5"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.1.5",
+      "nodeName": "定语 Attribute",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "修饰名词或代词，限定或描述其性质、特征、数量、所属等的成分",
+        "rules": [
+          "前置定语：形容词、代词、数词、名词、动名词等位于被修饰词之前",
+          "后置定语：不定式、分词短语、介词短语、定语从句等位于被修饰词之后",
+          "多个定语的排序：限定词→描绘词→大小→形状→年龄→颜色→国籍→材料→用途"
+        ],
+        "examples": {
+          "前置定语": ["a beautiful girl", "three books", "my pen"],
+          "后置定语": ["the book on the desk", "something important", "the man who came yesterday"]
+        },
+        "commonMistakes": ["定语位置错误", "多个定语排序混乱", "定语与状语混淆"],
+        "relatedNodes": ["1.1.3", "1.1.2.2.3", "1.1.2.2.4", "4.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.1.6",
+      "nodeName": "状语 Adverbial",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "修饰动词、形容词、副词或整个句子，说明时间、地点、原因、目的、结果、条件、方式、让步、程度、频度等",
+        "rules": [
+          "可由副词、介词短语、不定式、分词、名词、从句等充当",
+          "位置灵活，可位于句首、句中或句末"
+        ],
+        "examples": {
+          "时间状语": ["He arrived yesterday.", "When I came in, he was reading."],
+          "地点状语": ["She lives in Beijing."],
+          "原因状语": ["He was late because of the rain."],
+          "目的状语": ["He came here to see you."]
+        },
+        "commonMistakes": ["状语位置错误导致歧义", "状语从句时态错误", "多个状语排序不当"],
+        "relatedNodes": ["1.1.4", "4.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.1.7",
+      "nodeName": "补语 Complement（宾补/主补）",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "补充说明主语或宾语的意义，使意思完整，分为主语补足语和宾语补足语",
+        "rules": [
+          "宾语补足语：位于宾语后，补充说明宾语的状态、身份、特征等",
+          "主语补足语：被动语态中，原宾语补足语变为主语补足语",
+          "可由名词、形容词、不定式、分词、介词短语等充当"
+        ],
+        "examples": {
+          "宾补": ["We elected him monitor.", "I found the book interesting.", "I saw him crossing the street."],
+          "主补": ["He was elected monitor.", "The book was found interesting."]
+        },
+        "commonMistakes": ["宾补与双宾语混淆", "省略to的不定式作宾补时被动语态中to遗漏", "宾补与状语混淆"],
+        "relatedNodes": ["1.1.2.2.1", "3.2"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "He was made ____ (clean) the room by his mother.",
+          "answer": "to clean",
+          "analysis": "make sb. do sth.在主动语态中省略to，但在被动语态中必须还原to"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.1.8",
+      "nodeName": "同位语 Appositive",
+      "parentId": "2.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "位于名词或代词后，对其进行解释、说明或补充，与被修饰词指同一对象",
+        "rules": [
+          "可由名词、代词、数词、从句等充当",
+          "同位语与被修饰词之间通常用逗号隔开",
+          "同位语从句与定语从句的区别在于that在从句中是否充当成分"
+        ],
+        "examples": {
+          "名词": ["My friend, Tom, is coming."],
+          "从句": ["The news that he won the game surprised us."]
+        },
+        "commonMistakes": ["同位语与定语混淆", "同位语从句与定语从句混淆", "同位语位置错误"],
+        "relatedNodes": ["4.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.2",
+      "nodeName": "五大基本句型 · 5 Basic Sentence Patterns",
+      "parentId": "2",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语句子的五种基本结构模式，是所有复杂句子的基础框架",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["句型判断错误", "双宾语与宾补混淆", "主系表与主谓宾混淆"],
+        "relatedNodes": ["2.2.1", "2.2.2", "2.2.3", "2.2.4", "2.2.5"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.2.1",
+      "nodeName": "主谓 S+V",
+      "parentId": "2.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "主语+不及物动词，动词本身意义完整，无需宾语",
+        "rules": [
+          "不及物动词后不能直接跟宾语",
+          "可跟状语修饰动作"
+        ],
+        "examples": {
+          "基本句": ["He sleeps.", "They arrived.", "The sun rises."],
+          "加状语": ["He sleeps soundly.", "They arrived at noon."]
+        },
+        "commonMistakes": ["不及物动词后误加宾语", "与主谓宾句型混淆"],
+        "relatedNodes": ["1.1.2.1.1", "2.1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.2.2",
+      "nodeName": "主谓宾 S+V+O",
+      "parentId": "2.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "主语+及物动词+宾语，动词需要宾语才能使意义完整",
+        "rules": [
+          "及物动词后必须跟宾语",
+          "宾语可由名词、代词、不定式、动名词、从句等充当"
+        ],
+        "examples": {
+          "基本句": ["I love you.", "She reads books.", "They visited Beijing."]
+        },
+        "commonMistakes": ["及物动词后遗漏宾语", "宾语形式错误"],
+        "relatedNodes": ["1.1.2.1.1", "2.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.2.3",
+      "nodeName": "主谓双宾 S+V+IO+DO",
+      "parentId": "2.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "主语+及物动词+间接宾语+直接宾语，动词需要两个宾语才能表达完整意义",
+        "rules": [
+          "间接宾语通常指人，直接宾语通常指物",
+          "可转换为：主语+谓语+直接宾语+to/for+间接宾语",
+          "用to的动词：give, send, show, tell, lend等；用for的动词：buy, make, cook, get等"
+        ],
+        "examples": {
+          "双宾语": ["He gave me a book.", "She bought him a watch."],
+          "带介词": ["He gave a book to me.", "She bought a watch for him."]
+        },
+        "commonMistakes": ["to/for介词混淆", "双宾语位置错误", "不能接双宾语的动词误用"],
+        "relatedNodes": ["2.1.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "She made me a cake. = She made ____.",
+          "options": ["a cake to me", "a cake for me", "me to a cake", "me for a cake"],
+          "answer": "a cake for me",
+          "analysis": "make接双宾语时，转换为带介词结构用for，表示“为某人制作”"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.2.4",
+      "nodeName": "主谓宾补 S+V+O+OC",
+      "parentId": "2.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "主语+及物动词+宾语+宾语补足语，宾补补充说明宾语的状态、身份或特征",
+        "rules": [
+          "宾补与宾语之间存在逻辑上的主谓关系",
+          "可由名词、形容词、不定式、分词、介词短语等充当",
+          "感官动词和使役动词后作宾补的不定式省略to，被动语态中需还原"
+        ],
+        "examples": {
+          "名词": ["We elected him president."],
+          "形容词": ["The news made her happy."],
+          "不定式": ["I saw him enter the room."],
+          "分词": ["I heard someone singing."]
+        },
+        "commonMistakes": ["宾补与双宾语混淆", "省略to的不定式被动语态中to遗漏", "宾补与状语混淆"],
+        "relatedNodes": ["2.1.7", "1.1.2.2.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.2.5",
+      "nodeName": "主系表 S+Link-V+P",
+      "parentId": "2.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "主语+系动词+表语，表语说明主语的身份、特征或状态",
+        "rules": [
+          "系动词包括be动词、感官动词、变化动词、保持动词等",
+          "表语可由名词、形容词、介词短语、不定式、从句等充当",
+          "系动词无被动语态，一般无进行时"
+        ],
+        "examples": {
+          "be动词": ["She is a student.", "They are happy."],
+          "感官动词": ["The flower smells sweet."],
+          "变化动词": ["The leaves turned yellow."],
+          "保持动词": ["Keep quiet, please."]
+        },
+        "commonMistakes": ["系动词后误用副词", "主系表与主谓宾混淆", "系动词选择错误"],
+        "relatedNodes": ["1.1.2.1.2", "2.1.4"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "The food tastes well.",
+          "correction": "The food tastes good.",
+          "analysis": "taste是感官系动词，后应接形容词作表语，不能用副词well"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.3",
+      "nodeName": "句子分类 · Sentence Classification",
+      "parentId": "2",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "根据用途/语气和结构对句子进行分类，是理解和运用英语句子的基础",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["句子类型判断错误", "疑问句语序错误", "感叹句结构错误"],
+        "relatedNodes": ["2.3.1", "2.3.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.1",
+      "nodeName": "按用途/语气",
+      "parentId": "2.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "根据句子的用途和语气，分为陈述句、疑问句、祈使句、感叹句四大类",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["疑问句语序错误", "祈使句主语使用错误", "感叹句what/how选择错误"],
+        "relatedNodes": ["2.3.1.1", "2.3.1.2", "2.3.1.3", "2.3.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.1.1",
+      "nodeName": "陈述句 Declarative",
+      "parentId": "2.3.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来陈述事实或表达观点的句子，包括肯定句和否定句",
+        "rules": [
+          "肯定句：主语+谓语+其他成分",
+          "否定句：在be动词/助动词/情态动词后加not；实义动词需借助do/does/did加not"
+        ],
+        "examples": {
+          "肯定句": ["She is a doctor.", "They play football every day."],
+          "否定句": ["She isn't a doctor.", "They don't play football every day."]
+        },
+        "commonMistakes": ["否定句中助动词遗漏", "否定转移错误", "部分否定与全部否定混淆"],
+        "relatedNodes": ["3.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.1.2",
+      "nodeName": "疑问句 Interrogative（一般/特殊/选择/反义）",
+      "parentId": "2.3.1",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "用来提出问题的句子，分为一般疑问句、特殊疑问句、选择疑问句、反义疑问句",
+        "rules": [
+          "一般疑问句：用yes/no回答，be动词/助动词/情态动词提前",
+          "特殊疑问句：用疑问词引导，疑问词+一般疑问句语序",
+          "选择疑问句：提供选择，用or连接，语调前升后降",
+          "反义疑问句：陈述句+简短问句，前肯后否或前否后肯"
+        ],
+        "examples": {
+          "一般疑问句": ["Are you a student?", "Do you like English?"],
+          "特殊疑问句": ["What is your name?", "Where do you live?"],
+          "选择疑问句": ["Do you like tea or coffee?"],
+          "反义疑问句": ["He is a doctor, isn't he?", "You don't like it, do you?"]
+        },
+        "commonMistakes": ["疑问词语序错误", "反义疑问句前后肯否不一致", "特殊疑问句中助动词遗漏"],
+        "relatedNodes": ["1.1.5.2"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "He has finished his work, ____ ____?",
+          "answer": "hasn't he",
+          "analysis": "反义疑问句前肯后否，has是助动词，否定形式为hasn't，主语he不变"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.3.1.3",
+      "nodeName": "祈使句 Imperative",
+      "parentId": "2.3.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来表示命令、请求、建议、劝告等的句子，通常省略主语you",
+        "rules": [
+          "肯定式：动词原形开头，如Open the door.",
+          "否定式：Don't + 动词原形，如Don't be late.",
+          "Let's开头：表示建议，包括说话人和听话人",
+          "Let us开头：表示请求，不包括听话人"
+        ],
+        "examples": {
+          "肯定": ["Open the door.", "Please sit down.", "Let's go."],
+          "否定": ["Don't open the door.", "Don't be late."],
+          "强调": ["Do come in.", "Do be careful."]
+        },
+        "commonMistakes": ["祈使句主语you未省略", "否定祈使句用Don't后接动名词", "Let's与Let us混淆"],
+        "relatedNodes": ["5.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.1.4",
+      "nodeName": "感叹句 Exclamatory",
+      "parentId": "2.3.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用来表达强烈情感（喜悦、惊讶、愤怒等）的句子",
+        "rules": [
+          "What引导：What + (a/an) + 形容词 + 名词 + 主语 + 谓语!",
+          "How引导：How + 形容词/副词 + 主语 + 谓语!",
+          "What修饰名词，How修饰形容词或副词"
+        ],
+        "examples": {
+          "What": ["What a beautiful girl she is!", "What interesting books they are!"],
+          "How": ["How beautiful the girl is!", "How fast he runs!"]
+        },
+        "commonMistakes": ["What与How选择错误", "What后a/an使用错误", "感叹句语序错误"],
+        "relatedNodes": ["1.1.9"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "____ exciting news it is!",
+          "options": ["What", "What an", "How", "How an"],
+          "answer": "What",
+          "analysis": "news是不可数名词，用What修饰，不加a/an；How修饰形容词/副词"
+        }
+      ]
+    },
+    {
+      "nodeId": "2.3.2",
+      "nodeName": "按结构",
+      "parentId": "2.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "根据句子结构，分为简单句、并列句、复合句、并列复合句",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["简单句与并列句混淆", "并列句与复合句混淆", "从句识别错误"],
+        "relatedNodes": ["2.3.2.1", "2.3.2.2", "2.3.2.3", "2.3.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.2.1",
+      "nodeName": "简单句 Simple Sentence",
+      "parentId": "2.3.2",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "只包含一个主谓结构的句子，是构成其他复杂句子的基础",
+        "rules": [
+          "只有一个主语（或并列主语）和一个谓语（或并列谓语）",
+          "可包含各种句子成分，但只有一个核心谓语动词"
+        ],
+        "examples": {
+          "基本": ["I love you.", "He sings and dances."],
+          "带并列主语": ["Tom and Jerry are good friends."],
+          "带并列谓语": ["She sang and danced at the party."]
+        },
+        "commonMistakes": ["简单句中出现多个独立谓语", "简单句与并列句混淆"],
+        "relatedNodes": ["2.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.2.2",
+      "nodeName": "并列句 Compound Sentence",
+      "parentId": "2.3.2",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "由两个或两个以上的简单句通过并列连词连接而成的句子，各分句地位平等",
+        "rules": [
+          "常用并列连词：and, but, or, so, for, yet, neither...nor, either...or, not only...but also等",
+          "各分句之间用逗号或分号隔开，或用连词连接"
+        ],
+        "examples": {
+          "联合": ["I like tea, and she likes coffee."],
+          "转折": ["He is young, but he knows a lot."],
+          "选择": ["Hurry up, or you will be late."],
+          "因果": ["It rained heavily, so we stayed at home."]
+        },
+        "commonMistakes": ["并列连词使用错误", "分句之间缺少连词或标点", "because与so连用"],
+        "relatedNodes": ["1.1.8.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.2.3",
+      "nodeName": "复合句 Complex Sentence",
+      "parentId": "2.3.2",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "由一个主句和一个或多个从句构成的句子，从句在句中充当某种成分",
+        "rules": [
+          "主句是句子的主体，可以独立存在",
+          "从句不能独立存在，需依附于主句，在句中充当主语、宾语、表语、定语、状语等成分",
+          "从句由从属连词、关系代词或关系副词引导"
+        ],
+        "examples": {
+          "名词性从句": ["What he said is true."],
+          "定语从句": ["The man who is standing there is my teacher."],
+          "状语从句": ["I will go if it doesn't rain."]
+        },
+        "commonMistakes": ["主从句关系不清", "从句引导词选择错误", "从句语序错误"],
+        "relatedNodes": ["4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "2.3.2.4",
+      "nodeName": "并列复合句 Compound-Complex Sentence",
+      "parentId": "2.3.2",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "既有并列关系又有主从关系的句子，至少包含两个主句和一个从句",
+        "rules": [
+          "包含两个或以上的独立分句（主句）",
+          "至少包含一个从属分句（从句）"
+        ],
+        "examples": {
+          "例句": ["I like English, but my brother likes math because it is interesting."]
+        },
+        "commonMistakes": ["句子层次分析错误", "连词使用混乱"],
+        "relatedNodes": ["2.3.2.2", "2.3.2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3",
+      "nodeName": "时态与语态 · Tense & Voice【核心重难点】",
+      "parentId": "root",
+      "level": 1,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语动词的核心语法范畴，时态表示动作发生的时间和状态，语态表示主语与动作的关系，是英语语法的核心重难点",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["时态选择错误", "语态转换错误", "时态与时间状语不匹配", "被动语态中by短语遗漏"],
+        "relatedNodes": ["3.1", "3.2", "3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1",
+      "nodeName": "16种核心时态 · 16 Tenses",
+      "parentId": "3",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语动词的16种时态形式，按时间（现在/过去/将来/过去将来）和体（一般/进行/完成/完成进行）组合而成",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["时态混淆", "时态构成错误", "时态与时间状语不匹配"],
+        "relatedNodes": ["3.1.1", "3.1.2", "3.1.3", "3.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.1",
+      "nodeName": "现在时态 Present",
+      "parentId": "3.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示现在时间发生的动作或存在的状态，包括一般现在时、现在进行时、现在完成时、现在完成进行时",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["现在完成时与一般过去时混淆", "现在进行时滥用", "现在完成进行时与现在完成时混淆"],
+        "relatedNodes": ["3.1.1.1", "3.1.1.2", "3.1.1.3", "3.1.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.1.1",
+      "nodeName": "一般现在时",
+      "parentId": "3.1.1",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示经常性、习惯性的动作或客观事实、真理，动词用原形或第三人称单数形式",
+        "rules": [
+          "构成：动词原形（主语非三单）/动词三单形式（主语三单）",
+          "否定/疑问：do/does + not + 动词原形",
+          "用法：经常性动作、客观真理、时间表/计划、条件/时间状语从句中表将来"
+        ],
+        "examples": {
+          "习惯性": ["I get up at 6 every day.", "She often goes to the gym."],
+          "客观真理": ["The earth moves around the sun.", "Water boils at 100°C."],
+          "时间表": ["The train leaves at 8:00 tomorrow."],
+          "条件从句": ["If it rains tomorrow, I will stay at home."]
+        },
+        "commonMistakes": ["第三人称单数-s遗漏", "进行时误用一般现在时", "状态动词用进行时"],
+        "relatedNodes": ["3.1.2.1", "4.3.1"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "She usually ____ (go) to school by bus.",
+          "answer": "goes",
+          "analysis": "usually是一般现在时标志，主语she是第三人称单数，动词用goes"
+        }
+      ]
+    },
+    {
+      "nodeId": "3.1.1.2",
+      "nodeName": "现在进行时",
+      "parentId": "3.1.1",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示此时此刻或现阶段正在进行的动作，由am/is/are + doing构成",
+        "rules": [
+          "构成：am/is/are + 动词-ing形式",
+          "用法：此时此刻正在进行的动作、现阶段正在进行的动作、表示计划/安排好的将来动作、与always等连用表感情色彩",
+          "不用进行时的动词：状态动词（如be, have, know, love, believe等）"
+        ],
+        "examples": {
+          "此时此刻": ["I am reading a book now."],
+          "现阶段": ["I am learning French this semester."],
+          "将来安排": ["I am meeting him tomorrow."],
+          "感情色彩": ["He is always complaining."]
+        },
+        "commonMistakes": ["状态动词用进行时", "现在进行时与一般现在时混淆", "动词-ing形式拼写错误"],
+        "relatedNodes": ["1.1.2.1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.1.3",
+      "nodeName": "现在完成时",
+      "parentId": "3.1.1",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示过去发生的动作对现在造成的影响或结果，或从过去持续到现在的动作/状态，由have/has + done构成",
+        "rules": [
+          "构成：have/has + 过去分词",
+          "时间状语：already, yet, just, ever, never, since, for, so far, up to now等",
+          "用法：已完成（对现在有影响）、未完成（持续到现在）、经历、重复动作"
+        ],
+        "examples": {
+          "已完成": ["I have lost my key. (现在还没找到)"],
+          "未完成": ["I have lived here for 10 years. (现在还住在这里)"],
+          "经历": ["Have you ever been to Paris?"]
+        },
+        "commonMistakes": ["与一般过去时混淆", "since/for用法错误", "短暂动词与时间段连用"],
+        "relatedNodes": ["3.1.2.3"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "He has died for three years.",
+          "correction": "He has been dead for three years.",
+          "analysis": "die是短暂动词，不能与时间段for three years连用，需改为状态动词be dead"
+        }
+      ]
+    },
+    {
+      "nodeId": "3.1.1.4",
+      "nodeName": "现在完成进行时",
+      "parentId": "3.1.1",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某时开始一直持续到现在的动作，强调动作的持续性，由have/has + been + doing构成",
+        "rules": [
+          "构成：have/has + been + doing",
+          "与现在完成时的区别：强调动作的持续性和未完成性，常带有感情色彩",
+          "时间状语：for, since, all day/morning等"
+        ],
+        "examples": {
+          "持续性": ["I have been waiting for two hours.", "She has been working all day."]
+        },
+        "commonMistakes": ["与现在完成时混淆", "短暂动词用完成进行时"],
+        "relatedNodes": ["3.1.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.2",
+      "nodeName": "过去时态 Past",
+      "parentId": "3.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示过去时间发生的动作或存在的状态，包括一般过去时、过去进行时、过去完成时、过去完成进行时",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["一般过去时与现在完成时混淆", "过去完成时与一般过去时混淆", "过去进行时误用"],
+        "relatedNodes": ["3.1.2.1", "3.1.2.2", "3.1.2.3", "3.1.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.2.1",
+      "nodeName": "一般过去时",
+      "parentId": "3.1.2",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示过去某个时间发生的动作或存在的状态，与现在无关联",
+        "rules": [
+          "构成：动词过去式（规则动词加-ed，不规则动词特殊变化）",
+          "否定/疑问：did + not + 动词原形",
+          "时间状语：yesterday, last week, ago, in 2020, just now等"
+        ],
+        "examples": {
+          "过去动作": ["I visited Beijing last year.", "She was a student ten years ago."]
+        },
+        "commonMistakes": ["与现在完成时混淆", "过去式与过去分词混淆", "不规则动词形式错误"],
+        "relatedNodes": ["3.1.1.1", "3.1.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.2.2",
+      "nodeName": "过去进行时",
+      "parentId": "3.1.2",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示过去某一时刻或某段时间正在进行的动作，由was/were + doing构成",
+        "rules": [
+          "构成：was/were + doing",
+          "用法：过去某时刻正在进行的动作、过去某动作发生时另一动作正在进行（长动作用进行时，短动作用一般过去时）",
+          "时间状语：at this time yesterday, at 8 o'clock last night等"
+        ],
+        "examples": {
+          "过去某时刻": ["I was reading at 8 o'clock last night."],
+          "背景动作": ["When he came in, I was watching TV."]
+        },
+        "commonMistakes": ["与一般过去时混淆", "while与when混淆"],
+        "relatedNodes": ["3.1.1.2", "4.3.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "I ____ my homework when my mother came in.",
+          "options": ["did", "was doing", "am doing", "have done"],
+          "answer": "was doing",
+          "analysis": "when引导的时间状语从句表示一个动作发生时另一个动作正在进行，主句用过去进行时"
+        }
+      ]
+    },
+    {
+      "nodeId": "3.1.2.3",
+      "nodeName": "过去完成时",
+      "parentId": "3.1.2",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示在过去某一时间或动作之前已经发生或完成的动作，即'过去的过去'，由had + done构成",
+        "rules": [
+          "构成：had + 过去分词",
+          "时间状语：by, before, until, when, by the time等",
+          "常用结构：hardly/scarcely...when, no sooner...than"
+        ],
+        "examples": {
+          "过去的过去": ["When I arrived, the train had left."],
+          "by短语": ["By the end of last year, I had learned 2000 words."]
+        },
+        "commonMistakes": ["与一般过去时混淆", "无明确时间参照点滥用过去完成时"],
+        "relatedNodes": ["3.1.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.2.4",
+      "nodeName": "过去完成进行时",
+      "parentId": "3.1.2",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某时开始一直持续到过去另一时刻的动作，由had been + doing构成",
+        "rules": [
+          "构成：had + been + doing",
+          "强调动作的持续性和未完成性"
+        ],
+        "examples": {
+          "持续性": ["He had been waiting for two hours before she came."]
+        },
+        "commonMistakes": ["与过去完成时混淆"],
+        "relatedNodes": ["3.1.2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.3",
+      "nodeName": "将来时态 Future",
+      "parentId": "3.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示将来发生的动作或存在的状态，包括一般将来时、将来进行时、将来完成时、将来完成进行时",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["will与be going to混淆", "将来时表达方式选择错误"],
+        "relatedNodes": ["3.1.3.1", "3.1.3.2", "3.1.3.3", "3.1.3.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.3.1",
+      "nodeName": "一般将来时",
+      "parentId": "3.1.3",
+      "level": 4,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示将来要发生的动作或存在的状态",
+        "rules": [
+          "will/shall + 动词原形：表客观将来、临时决定、承诺、预测",
+          "be going to + 动词原形：表计划、打算、有迹象表明的将来",
+          "现在进行时表将来：表已安排好的将来动作",
+          "一般现在时表将来：表时间表、计划中的动作"
+        ],
+        "examples": {
+          "will": ["I will help you.", "It will rain tomorrow."],
+          "be going to": ["I am going to visit my grandparents.", "Look at the clouds. It is going to rain."],
+          "现在进行时": ["I am meeting him tomorrow."]
+        },
+        "commonMistakes": ["will与be going to混淆", "条件句中will误用"],
+        "relatedNodes": ["3.1.1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.3.2",
+      "nodeName": "将来进行时",
+      "parentId": "3.1.3",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示将来某一时刻正在进行的动作，由will be + doing构成",
+        "rules": [
+          "构成：will be + doing",
+          "用法：将来某时刻正在进行的动作、礼貌询问将来安排"
+        ],
+        "examples": {
+          "将来某时刻": ["This time tomorrow, I will be flying to Paris."],
+          "礼貌询问": ["Will you be using the car tomorrow?"]
+        },
+        "commonMistakes": ["与一般将来时混淆"],
+        "relatedNodes": ["3.1.1.2", "3.1.3.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.3.3",
+      "nodeName": "将来完成时",
+      "parentId": "3.1.3",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示到将来某一时间为止已经完成的动作，由will have + done构成",
+        "rules": [
+          "构成：will have + 过去分词",
+          "时间状语：by, by the time, before等"
+        ],
+        "examples": {
+          "将来完成": ["By next year, I will have graduated.", "By the time you arrive, I will have finished the work."]
+        },
+        "commonMistakes": ["时间参照点错误"],
+        "relatedNodes": ["3.1.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.3.4",
+      "nodeName": "将来完成进行时",
+      "parentId": "3.1.3",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从将来某时开始一直持续到将来另一时刻的动作，由will have been + doing构成",
+        "rules": [
+          "构成：will have been + doing"
+        ],
+        "examples": {
+          "持续性": ["By next summer, I will have been working here for five years."]
+        },
+        "commonMistakes": [],
+        "relatedNodes": ["3.1.3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.4",
+      "nodeName": "过去将来时态 Past Future",
+      "parentId": "3.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某一时间看将要发生的动作，常用于宾语从句中",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["与一般过去时混淆"],
+        "relatedNodes": ["3.1.4.1", "3.1.4.2", "3.1.4.3", "3.1.4.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.4.1",
+      "nodeName": "一般过去将来时",
+      "parentId": "3.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某时看将要发生的动作，由would/should + 动词原形构成",
+        "rules": [
+          "构成：would/should + 动词原形",
+          "用法：宾语从句中、间接引语、过去将来时间"
+        ],
+        "examples": {
+          "宾语从句": ["He said he would come tomorrow.", "I knew she would agree."]
+        },
+        "commonMistakes": ["与过去时态混淆"],
+        "relatedNodes": ["3.1.3.1", "4.1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.4.2",
+      "nodeName": "过去将来进行时",
+      "parentId": "3.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某时看将来某时正在进行的动作，由would be + doing构成",
+        "rules": [
+          "构成：would be + doing"
+        ],
+        "examples": {
+          "例句": ["He said he would be waiting for us at the station."]
+        },
+        "commonMistakes": [],
+        "relatedNodes": ["3.1.3.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.4.3",
+      "nodeName": "过去将来完成时",
+      "parentId": "3.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某时看将来某时之前已经完成的动作，由would have + done构成",
+        "rules": [
+          "构成：would have + 过去分词"
+        ],
+        "examples": {
+          "例句": ["He said he would have finished the work by Friday."]
+        },
+        "commonMistakes": [],
+        "relatedNodes": ["3.1.3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.1.4.4",
+      "nodeName": "过去将来完成进行时",
+      "parentId": "3.1.4",
+      "level": 4,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示从过去某时看将来某时之前一直持续的动作，由would have been + doing构成",
+        "rules": [
+          "构成：would have been + doing"
+        ],
+        "examples": {
+          "例句": ["He said that by the end of that year he would have been working there for ten years."]
+        },
+        "commonMistakes": [],
+        "relatedNodes": ["3.1.3.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.2",
+      "nodeName": "被动语态 · Passive Voice",
+      "parentId": "3",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示主语是动作的承受者，强调动作本身或动作的执行者不明/不重要",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["不及物动词误用被动语态", "被动语态中时态错误", "by短语使用不当"],
+        "relatedNodes": ["3.2.1", "3.2.2", "3.2.3", "3.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.2.1",
+      "nodeName": "各时态被动结构",
+      "parentId": "3.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "各种时态对应的被动语态结构形式",
+        "rules": [
+          "一般现在时：am/is/are + done",
+          "一般过去时：was/were + done",
+          "一般将来时：will be + done / be going to be + done",
+          "现在进行时：am/is/are being + done",
+          "过去进行时：was/were being + done",
+          "现在完成时：have/has been + done",
+          "过去完成时：had been + done",
+          "情态动词：情态动词 + be + done"
+        ],
+        "examples": {
+          "一般现在时": ["English is spoken in many countries."],
+          "一般过去时": ["The house was built in 1990."],
+          "一般将来时": ["The meeting will be held tomorrow."],
+          "现在完成时": ["The work has been finished."]
+        },
+        "commonMistakes": ["进行时被动结构错误", "完成时被动结构错误", "情态动词后be动词遗漏"],
+        "relatedNodes": ["3.1"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "The bridge ____ ____ (build) next year.",
+          "answer": "will be built",
+          "analysis": "next year是将来时标志，被动语态结构为will be + 过去分词"
+        }
+      ]
+    },
+    {
+      "nodeId": "3.2.2",
+      "nodeName": "主动句转被动句规则",
+      "parentId": "3.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "将主动语态句子转换为被动语态的基本规则和步骤",
+        "rules": [
+          "步骤1：将主动句的宾语变为被动句的主语",
+          "步骤2：将主动句的谓语动词变为be + 过去分词形式",
+          "步骤3：将主动句的主语变为by的宾语（可省略）",
+          "注意：主动句的主语变为by短语时，人称代词要用宾格"
+        ],
+        "examples": {
+          "转换": ["主动：Tom wrote a book. → 被动：A book was written by Tom."]
+        },
+        "commonMistakes": ["by后接主格代词", "主动句主语未变为by短语", "时态转换错误"],
+        "relatedNodes": ["3.2.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.2.3",
+      "nodeName": "特殊被动用法（双宾/宾补/情态动词）",
+      "parentId": "3.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "双宾语句、宾补句、情态动词句等特殊结构的被动转换",
+        "rules": [
+          "双宾语句：可将间接宾语或直接宾语变为主语，间接宾语变主语时直接宾语保留，直接宾语变主语时间接宾语前加to/for",
+          "宾补句：宾语变主语，宾补变主补",
+          "省略to的不定式作宾补：主动变被动时to要还原",
+          "情态动词被动：情态动词 + be + done"
+        ],
+        "examples": {
+          "双宾语": ["主动：He gave me a book. → 被动：I was given a book. / A book was given to me."],
+          "宾补": ["主动：We made him monitor. → 被动：He was made monitor."],
+          "还原to": ["主动：I saw him cross the street. → 被动：He was seen to cross the street."]
+        },
+        "commonMistakes": ["双宾语句转换时介词遗漏", "省略to的不定式被动时to未还原", "宾补与双宾语混淆"],
+        "relatedNodes": ["2.1.7", "2.2.3", "2.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.2.4",
+      "nodeName": "被动与主动的语体差异",
+      "parentId": "3.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "被动语态与主动语态在使用场合和语体风格上的差异",
+        "rules": [
+          "不知道动作执行者时用被动",
+          "动作执行者不重要时用被动",
+          "强调动作本身或动作承受者时用被动",
+          "科技、新闻、正式文体中常用被动",
+          "避免主观色彩或责任归属时用被动"
+        ],
+        "examples": {
+          "不知道执行者": ["My bike was stolen."],
+          "强调承受者": ["The book was written in 1950."],
+          "科技文体": ["The experiment was conducted in a controlled environment."]
+        },
+        "commonMistakes": ["滥用被动语态导致句子冗长", "该用主动时误用被动"],
+        "relatedNodes": ["3.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.3",
+      "nodeName": "主谓一致 · Subject-Verb Agreement",
+      "parentId": "3",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "谓语动词在人称和数上必须与主语保持一致",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["主谓不一致", "就近原则误用", "集体名词单复数判断错误"],
+        "relatedNodes": ["3.3.1", "3.3.2", "3.3.3", "3.3.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.3.1",
+      "nodeName": "语法一致原则",
+      "parentId": "3.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "谓语动词的形式与主语的语法形式保持一致",
+        "rules": [
+          "单数主语用单数动词，复数主语用复数动词",
+          "不定式、动名词、从句作主语时用单数动词",
+          "'the + 形容词'表示一类人时用复数动词",
+          "and连接并列主语一般用复数动词"
+        ],
+        "examples": {
+          "单数": ["The boy runs fast.", "To learn English is important."],
+          "复数": ["The boys run fast.", "The rich are not always happy."],
+          "并列": ["Tom and Jerry are friends."]
+        },
+        "commonMistakes": ["主语为从句时谓语用复数", "'the + 形容词'误用单数"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.3.2",
+      "nodeName": "意义一致原则",
+      "parentId": "3.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "谓语动词的形式与主语所表达的实际意义保持一致",
+        "rules": [
+          "集体名词：强调整体用单数，强调成员用复数（family, team, class, audience等）",
+          "表示时间、距离、金钱、重量等的复数名词作整体时用单数",
+          "'one of + 复数名词'用单数，'the only one of + 复数名词'用单数",
+          "'more than one + 单数名词'用单数，'more + 复数名词 + than one'用复数"
+        ],
+        "examples": {
+          "集体名词": ["My family is large. (整体)", "My family are watching TV. (成员)"],
+          "时间距离": ["Ten years is a long time.", "Five miles is not far."],
+          "one of": ["He is one of the students who are late.", "He is the only one of the students who is late."]
+        },
+        "commonMistakes": ["集体名词单复数判断错误", "one of结构谓语单复数错误"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "The team ____ listening to the coach now.",
+          "options": ["is", "are", "was", "were"],
+          "answer": "is",
+          "analysis": "team作为整体看待时谓语用单数，句中now和语境表明强调团队整体活动"
+        }
+      ]
+    },
+    {
+      "nodeId": "3.3.3",
+      "nodeName": "就近一致原则",
+      "parentId": "3.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "谓语动词的形式与最靠近它的主语保持一致",
+        "rules": [
+          "either...or..., neither...nor..., not only...but also...连接主语时，谓语与最近的主语一致",
+          "there be句型中，be动词与最近的主语一致"
+        ],
+        "examples": {
+          "either or": ["Either you or he is wrong.", "Either he or you are wrong."],
+          "neither nor": ["Neither the students nor the teacher knows anything about it."],
+          "there be": ["There is a pen and two books on the desk.", "There are two books and a pen on the desk."]
+        },
+        "commonMistakes": ["就近原则适用范围扩大", "there be句型主谓不一致"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "3.3.4",
+      "nodeName": "特殊一致规则",
+      "parentId": "3.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "一些特殊结构的主谓一致规则",
+        "rules": [
+          "a number of + 复数名词 → 复数动词",
+          "the number of + 复数名词 → 单数动词",
+          "all/most/some/half/enough/part/the rest/the last/lots/plenty/分数/百分数 + of + 名词 → 与of后的名词一致",
+          "each/every/no/many a + 单数名词 → 单数动词",
+          "with, together with, along with, as well as, like, but, except, besides, including, in addition to等连接的成分 → 与前面的主语一致"
+        ],
+        "examples": {
+          "a number of": ["A number of students are absent."],
+          "the number of": ["The number of students is increasing."],
+          "分数百分数": ["Two thirds of the students are boys.", "Two thirds of the water is polluted."],
+          "with": ["The teacher with his students is coming."]
+        },
+        "commonMistakes": ["a number of与the number of混淆", "with等连接时谓语单复数错误"],
+        "relatedNodes": ["3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4",
+      "nodeName": "从句与复合句 · Clauses & Complex Sentences【中高阶核心】",
+      "parentId": "root",
+      "level": 1,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "由一个主句和一个或多个从句构成的句子，从句在句中充当某种成分，是英语中高阶语法的核心",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["从句类型判断错误", "引导词选择错误", "从句语序错误", "时态呼应错误"],
+        "relatedNodes": ["4.1", "4.2", "4.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.1",
+      "nodeName": "名词性从句 · Noun Clauses",
+      "parentId": "4",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "在句中充当名词性成分的从句，包括主语从句、宾语从句、表语从句、同位语从句",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["that与what混淆", "whether与if用法混淆", "从句语序错误", "时态呼应错误"],
+        "relatedNodes": ["4.1.1", "4.1.2", "4.1.3", "4.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.1.1",
+      "nodeName": "主语从句",
+      "parentId": "4.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "在句中充当主语的从句，通常由that, whether, what, who, which, when, where, why, how等引导",
+        "rules": [
+          "that引导主语从句时不能省略",
+          "为避免头重脚轻，常用it作形式主语，将主语从句后置",
+          "what在从句中充当成分（主语、宾语、表语），that不充当成分"
+        ],
+        "examples": {
+          "that引导": ["That he will come is certain.", "It is certain that he will come."],
+          "what引导": ["What he said is true.", "What surprised me was his attitude."],
+          "whether引导": ["Whether he will come is still unknown."]
+        },
+        "commonMistakes": ["that引导主语从句时省略", "what与that混淆", "形式主语it遗漏"],
+        "relatedNodes": ["1.1.5.4", "4.1.2"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "____ he said at the meeting surprised everybody.",
+          "options": ["That", "What", "Which", "When"],
+          "answer": "What",
+          "analysis": "what在从句中作said的宾语，表示“他说的话”；that不充当成分，不符合句意"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.1.2",
+      "nodeName": "宾语从句",
+      "parentId": "4.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "在句中充当宾语的从句，通常位于及物动词、介词或某些形容词后",
+        "rules": [
+          "that引导宾语从句时可省略（正式文体中不省略）",
+          "whether/if都可引导宾语从句，但介词后、不定式前、discuss后、与or not连用时只能用whether",
+          "宾语从句用陈述语序",
+          "时态呼应：主句过去时，从句用相应过去时态；从句表示客观真理时用一般现在时"
+        ],
+        "examples": {
+          "that引导": ["I know (that) he is right.", "He said that he would come."],
+          "whether/if": ["I don't know whether/if he will come.", "I worry about whether he is safe."],
+          "疑问词": ["I don't know what he wants.", "Can you tell me where he lives?"]
+        },
+        "commonMistakes": ["宾语从句用疑问语序", "whether与if误用", "时态呼应错误"],
+        "relatedNodes": ["4.1.1", "1.1.8.2"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "I don't know where does he live.",
+          "correction": "I don't know where he lives.",
+          "analysis": "宾语从句必须用陈述语序，不能用疑问语序"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.1.3",
+      "nodeName": "表语从句",
+      "parentId": "4.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "在句中充当表语的从句，位于系动词后，说明主语的内容或性质",
+        "rules": [
+          "常用that, whether, what, who, which, when, where, why, how, because等引导",
+          "that引导表语从句时不能省略",
+          "表语从句用陈述语序"
+        ],
+        "examples": {
+          "that引导": ["The problem is that we don't have enough time."],
+          "whether引导": ["The question is whether he will come."],
+          "what引导": ["That's what I want to say."],
+          "because引导": ["That's because he didn't study hard."]
+        },
+        "commonMistakes": ["that省略", "The reason...is because错误结构"],
+        "relatedNodes": ["2.1.4", "4.1.2"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "The reason why he was late is because he missed the bus.",
+          "correction": "The reason why he was late is that he missed the bus.",
+          "analysis": "reason作主语时，表语从句用that引导，不能用because，避免语义重复"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.1.4",
+      "nodeName": "同位语从句",
+      "parentId": "4.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "位于某些抽象名词后，对该名词的内容进行解释说明的从句",
+        "rules": [
+          "常用名词：fact, news, idea, belief, thought, hope, doubt, question, problem, truth等",
+          "通常由that引导，that不充当成分，不能省略",
+          "与定语从句的区别：that在定语从句中充当成分，在同位语从句中不充当成分"
+        ],
+        "examples": {
+          "同位语从句": ["The news that he won the game surprised us.", "I have no idea that he is leaving."]
+        },
+        "commonMistakes": ["同位语从句与定语从句混淆", "that省略", "错误名词后接同位语从句"],
+        "relatedNodes": ["2.1.8", "4.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.1.5",
+      "nodeName": "核心引导词（that/whether/wh-系列）",
+      "parentId": "4.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "引导名词性从句的连接词的选择和用法",
+        "rules": [
+          "that：无实际意义，不充当成分，只起连接作用（宾语从句中可省略）",
+          "whether/if：表示“是否”，不充当成分，whether用法更广",
+          "what：表示“……的事物/话”，在从句中充当主语、宾语、表语",
+          "who/whom/whose：表示“谁”，在从句中充当主语、宾语、定语",
+          "which：表示“哪一个”，在从句中充当定语、主语、宾语",
+          "when/where/why/how：表示时间、地点、原因、方式，在从句中作状语"
+        ],
+        "examples": {
+          "that": ["I know that he is right."],
+          "whether": ["I don't know whether he will come."],
+          "what": ["What he said is true."],
+          "who": ["Who will go is not decided."]
+        },
+        "commonMistakes": ["that与what混淆", "whether与if误用", "疑问词选择错误"],
+        "relatedNodes": ["4.1.1", "4.1.2", "4.1.3", "4.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.1.6",
+      "nodeName": "时态/语序规则",
+      "parentId": "4.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "名词性从句中的时态呼应和语序规则",
+        "rules": [
+          "语序：名词性从句必须用陈述语序（主语+谓语）",
+          "时态呼应：主句为现在时，从句可用任何时态；主句为过去时，从句用相应过去时态",
+          "例外：从句表示客观真理、科学事实、永恒不变的事实时，用一般现在时"
+        ],
+        "examples": {
+          "时态呼应": ["He said he was busy. (主句过去时，从句过去时)", "He said he would come. (主句过去时，从句过去将来时)"],
+          "客观真理": ["The teacher said the earth moves around the sun."]
+        },
+        "commonMistakes": ["从句用疑问语序", "时态呼应错误", "客观真理未用一般现在时"],
+        "relatedNodes": ["4.1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.2",
+      "nodeName": "定语从句 · Attributive Clauses",
+      "parentId": "4",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "修饰名词或代词的从句，在句中充当定语，分为限定性定语从句和非限定性定语从句",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["关系词选择错误", "关系词省略错误", "先行词判断错误", "介词位置错误"],
+        "relatedNodes": ["4.2.1", "4.2.2", "4.2.3", "4.2.4", "4.2.5"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.2.1",
+      "nodeName": "限定性定语从句",
+      "parentId": "4.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "对先行词进行限定和修饰，去掉后会影响句意的完整性，不用逗号与主句隔开",
+        "rules": [
+          "先行词为人：who(主语), whom(宾语), that(主/宾), whose(定语)",
+          "先行词为物：which(主/宾), that(主/宾), whose(定语)",
+          "关系代词在从句中作宾语时可省略",
+          "that不能引导非限定性定语从句"
+        ],
+        "examples": {
+          "who": ["The man who is standing there is my teacher."],
+          "whom": ["The man (whom) you met yesterday is my uncle."],
+          "which": ["The book (which) I bought is interesting."],
+          "that": ["This is the best book that I have ever read."],
+          "whose": ["The boy whose father is a doctor is my classmate."]
+        },
+        "commonMistakes": ["who与whom混淆", "逗号使用错误", "关系词选择错误"],
+        "relatedNodes": ["4.2.2", "4.2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.2.2",
+      "nodeName": "非限定性定语从句",
+      "parentId": "4.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "对先行词进行补充说明，去掉后不影响句意的完整性，用逗号与主句隔开，不能用that引导",
+        "rules": [
+          "用逗号与主句隔开",
+          "不能用that引导",
+          "关系代词不能省略",
+          "可修饰整个主句，此时用which或as"
+        ],
+        "examples": {
+          "补充说明": ["My brother, who lives in Beijing, is a doctor."],
+          "修饰整个句子": ["He passed the exam, which surprised us all.", "As is known to all, the earth is round."]
+        },
+        "commonMistakes": ["用that引导", "关系词省略", "逗号遗漏"],
+        "relatedNodes": ["4.2.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "He has two sons, ____ are doctors.",
+          "options": ["both of them", "both of whom", "both of which", "both of who"],
+          "answer": "both of whom",
+          "analysis": "非限定性定语从句，先行词sons指人，用whom，介词后不能用who"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.2.3",
+      "nodeName": "关系代词引导（who/whom/whose/which/that/as）",
+      "parentId": "4.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "关系代词在定语从句中充当主语、宾语、定语等成分，连接先行词和从句",
+        "rules": [
+          "who：先行词为人，在从句中作主语",
+          "whom：先行词为人，在从句中作宾语（正式文体）",
+          "whose：先行词为人或物，在从句中作定语",
+          "which：先行词为物，在从句中作主语或宾语",
+          "that：先行词为人或物，在从句中作主语或宾语（限定性从句）",
+          "as：引导限制性/非限制性从句，常用于such...as, the same...as, as...as等结构"
+        ],
+        "examples": {
+          "who": ["The man who spoke is my teacher."],
+          "whom": ["The man whom you saw is my uncle."],
+          "whose": ["The boy whose bike was lost is crying."],
+          "which": ["The book which is on the desk is mine."],
+          "that": ["The man that spoke is my teacher.", "The book that is on the desk is mine."],
+          "as": ["Such people as were recommended by him were reliable.", "As we all know, he is honest."]
+        },
+        "commonMistakes": ["who与whom混淆", "whose与who's混淆", "that与which选择错误"],
+        "relatedNodes": ["4.2.1", "4.2.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.2.4",
+      "nodeName": "关系副词引导（when/where/why）",
+      "parentId": "4.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "关系副词在定语从句中充当状语，相当于'介词+which'",
+        "rules": [
+          "when：先行词为时间名词，在从句中作时间状语（= at/in/on which）",
+          "where：先行词为地点名词，在从句中作地点状语（= in/at which）",
+          "why：先行词为reason，在从句中作原因状语（= for which）"
+        ],
+        "examples": {
+          "when": ["I still remember the day when I first met her.", "I still remember the day on which I first met her."],
+          "where": ["This is the house where I was born.", "This is the house in which I was born."],
+          "why": ["That is the reason why he left.", "That is the reason for which he left."]
+        },
+        "commonMistakes": ["关系副词与关系代词混淆", "先行词判断错误", "介词+which结构错误"],
+        "relatedNodes": ["4.2.5"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "This is the factory ____ I visited last year.",
+          "options": ["where", "which", "in which", "at where"],
+          "answer": "which",
+          "analysis": "visit是及物动词，从句缺少宾语，用关系代词which；where在从句中作状语，不符合"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.2.5",
+      "nodeName": "介词+关系代词结构",
+      "parentId": "4.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "介词位于关系代词之前的结构，通常用于正式文体",
+        "rules": [
+          "结构：介词 + whom/which（不能用who/that）",
+          "介词的选择取决于从句中的搭配或先行词",
+          "介词可移至从句末尾，此时关系代词可省略（作宾语时）"
+        ],
+        "examples": {
+          "介词前置": ["The man with whom I spoke is my boss.", "The book about which we are talking is interesting."],
+          "介词后置": ["The man (whom) I spoke with is my boss."]
+        },
+        "commonMistakes": ["介词后接who/that", "介词选择错误", "双重介词"],
+        "relatedNodes": ["4.2.3", "4.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.2.6",
+      "nodeName": "特殊用法与易错点",
+      "parentId": "4.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "定语从句中的特殊用法和常见易错点",
+        "rules": [
+          "只能用that的情况：先行词为all, everything, nothing, something, anything, little, much等不定代词；先行词被序数词、最高级、the only, the very, the same等修饰；先行词既有人又有物",
+          "不能用that的情况：非限定性定语从句；介词后",
+          "way作先行词：可用that/in which/省略",
+          "先行词为time：可用that/when/省略"
+        ],
+        "examples": {
+          "只能用that": ["All that glitters is not gold.", "This is the best book that I have read.", "He talked about the teachers and schools that he had visited."],
+          "way": ["I don't like the way (that/in which) he talks."]
+        },
+        "commonMistakes": ["that与which误用", "关系词冗余", "先行词遗漏"],
+        "relatedNodes": ["4.2.1", "4.2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3",
+      "nodeName": "状语从句 · Adverbial Clauses",
+      "parentId": "4",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "在句中充当状语的从句，修饰主句的动词、形容词、副词或整个句子，表示时间、地点、原因、结果、目的、条件、让步、比较、方式等",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["引导词选择错误", "时态呼应错误", "语序错误", "主从句逻辑关系不清"],
+        "relatedNodes": ["4.3.1", "4.3.2", "4.3.3", "4.3.4", "4.3.5", "4.3.6", "4.3.7", "4.3.8", "4.3.9"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3.1",
+      "nodeName": "时间状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示动作发生的时间，由when, while, as, before, after, since, until/till, as soon as, the moment等引导",
+        "rules": [
+          "when：当……时，从句动词可为延续性或短暂性",
+          "while：当……时/在……期间，从句动词必须为延续性，强调同时进行",
+          "as：当……时/一边……一边，强调两个动作同时进行",
+          "before/after：在……之前/之后",
+          "since：自从……以来，主句用完成时",
+          "until/till：直到……为止，not...until直到……才",
+          "as soon as/the moment/immediately：一……就……",
+          "主将从现：时间状语从句中，用一般现在时表示将来"
+        ],
+        "examples": {
+          "when": ["When I got home, he was watching TV."],
+          "while": ["While I was reading, he was writing."],
+          "as": ["As I was walking down the street, I saw an old friend."],
+          "since": ["I have lived here since I was born."],
+          "until": ["He waited until I came back.", "He didn't leave until I came back."]
+        },
+        "commonMistakes": ["when与while混淆", "主将从现规则遗忘", "since从句时态错误"],
+        "relatedNodes": ["3.1.1.1", "3.1.1.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "I will call you as soon as I ____ (arrive) in Beijing.",
+          "options": ["arrive", "will arrive", "arrived", "have arrived"],
+          "answer": "arrive",
+          "analysis": "as soon as引导的时间状语从句遵循'主将从现'原则，用一般现在时表示将来"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.3.2",
+      "nodeName": "地点状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示动作发生的地点，由where, wherever引导",
+        "rules": [
+          "where：在……地方",
+          "wherever：无论在哪里，相当于no matter where"
+        ],
+        "examples": {
+          "where": ["Put the book where it was.", "Where there is a will, there is a way."],
+          "wherever": ["Wherever you go, I will follow you."]
+        },
+        "commonMistakes": ["where与which混淆", "地点状语从句与定语从句混淆"],
+        "relatedNodes": ["4.2.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3.3",
+      "nodeName": "原因状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示动作发生的原因，由because, since, as, now that等引导",
+        "rules": [
+          "because：因为，语气最强，回答why，可置于句首或句中",
+          "since：既然/因为，语气较弱，表示已知的原因，常置于句首",
+          "as：由于/因为，语气最弱，表示显而易见的原因，常置于句首",
+          "now that：既然，表示新出现的情况",
+          "because不能与so连用"
+        ],
+        "examples": {
+          "because": ["I didn't go to school because I was ill."],
+          "since": ["Since you are busy, I won't trouble you."],
+          "as": ["As it was raining, we stayed at home."],
+          "now that": ["Now that you are grown up, you should be independent."]
+        },
+        "commonMistakes": ["because与so连用", "because与for混淆", "语气强弱不当"],
+        "relatedNodes": ["1.1.8.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3.4",
+      "nodeName": "结果状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示动作的结果，由so...that, such...that, so that等引导",
+        "rules": [
+          "so + 形容词/副词 + that：如此……以至于……",
+          "such + (a/an) + 形容词 + 名词 + that：如此……以至于……",
+          "so that：以便/结果是（结果状语从句中that可省略）",
+          "so that与so...that的区别：前者表目的或结果，后者只表结果"
+        ],
+        "examples": {
+          "so that": ["He was so tired that he fell asleep immediately."],
+          "such that": ["It was such a boring movie that I fell asleep.", "They are such good students that we all like them."]
+        },
+        "commonMistakes": ["so与such混淆", "so...that与such...that结构错误", "so that与so...that混淆"],
+        "relatedNodes": ["4.3.5"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "It is ____ interesting a book ____ I can't put it down.",
+          "answer": "so; that",
+          "analysis": "so + 形容词 + a/an + 名词 + that结构，表示“如此……以至于……”"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.3.5",
+      "nodeName": "目的状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示动作的目的，由so that, in order that, for fear that, in case等引导",
+        "rules": [
+          "so that/in order that：以便/为了，从句中常用can/could/may/might/will/would等情态动词",
+          "in order that比so that更正式，可置于句首",
+          "for fear that：唯恐/以免，从句用should或陈述语气",
+          "in case：以防/万一，从句用should或陈述语气"
+        ],
+        "examples": {
+          "so that": ["He got up early so that he could catch the first bus."],
+          "in order that": ["In order that everyone should hear him, he spoke loudly."],
+          "for fear that": ["He left early for fear that he should miss the train."]
+        },
+        "commonMistakes": ["so that引导目的从句时情态动词遗漏", "in case与if混淆"],
+        "relatedNodes": ["4.3.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3.6",
+      "nodeName": "条件状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示动作发生的条件，由if, unless, as/so long as, on condition that, provided/providing that, supposing等引导",
+        "rules": [
+          "if：如果，引导真实条件句和虚拟条件句",
+          "unless：除非/如果不，相当于if...not",
+          "as/so long as：只要",
+          "on condition that：在……条件下",
+          "provided/providing that：假如",
+          "主将从现：真实条件句中，用一般现在时表示将来"
+        ],
+        "examples": {
+          "if": ["If it rains tomorrow, I will stay at home."],
+          "unless": ["Unless you work hard, you will fail. (= If you don't work hard, you will fail.)"],
+          "as long as": ["As long as you try your best, you will succeed."]
+        },
+        "commonMistakes": ["unless与if...not混淆", "主将从现规则遗忘", "虚拟条件句与真实条件句混淆"],
+        "relatedNodes": ["5.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3.7",
+      "nodeName": "让步状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示尽管/虽然……，但是……，由though, although, even though, even if, while, no matter + wh-, whatever, whoever等引导",
+        "rules": [
+          "though/although/even though：虽然/尽管，不能与but连用，可与yet/still连用",
+          "even if：即使/纵然，引导假设性让步",
+          "while：虽然（置于句首），然而（表对比）",
+          "no matter + wh- = wh-ever：无论……",
+          "as引导让步从句需倒装：形容词/副词/名词/动词 + as + 主语 + 谓语"
+        ],
+        "examples": {
+          "though": ["Though/Although he is young, he knows a lot.", "Young as he is, he knows a lot."],
+          "even if": ["Even if it rains, I will go out."],
+          "whatever": ["Whatever happens, I will support you.", "No matter what happens, I will support you."]
+        },
+        "commonMistakes": ["though/although与but连用", "as引导让步从句未倒装", "even if与even though混淆"],
+        "relatedNodes": ["5.2"]
+      },
+      "exercises": [
+        {
+          "type": "errorCorrection",
+          "question": "Although he is young, but he knows a lot.",
+          "correction": "Although he is young, he knows a lot.",
+          "analysis": "although/though不能与but连用，二者只能选其一"
+        }
+      ]
+    },
+    {
+      "nodeId": "4.3.8",
+      "nodeName": "比较状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示比较关系，由than, as...as, not so/as...as, the more...the more等引导",
+        "rules": [
+          "than：比……，用于比较级",
+          "as...as：和……一样，用于原级比较",
+          "not so/as...as：不如……",
+          "the more...the more：越……越……"
+        ],
+        "examples": {
+          "than": ["He is taller than I (am).", "He runs faster than I (do)."],
+          "as as": ["He is as tall as I (am)."],
+          "not so as": ["He is not so/as tall as his brother."],
+          "the more": ["The more you read, the more you know."]
+        },
+        "commonMistakes": ["than后接主格还是宾格混淆", "as...as中间用形容词原级", "比较对象不一致"],
+        "relatedNodes": ["1.1.3.1", "1.1.4.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "4.3.9",
+      "nodeName": "方式状语从句",
+      "parentId": "4.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示动作的方式，由as, as if, as though, the way等引导",
+        "rules": [
+          "as：按照/如同……一样，引导方式状语从句",
+          "as if/as though：好像/仿佛，从句可用陈述语气或虚拟语气",
+          "the way：……的方式（口语中常用）"
+        ],
+        "examples": {
+          "as": ["Do as I told you.", "Leave it as it is."],
+          "as if": ["He talks as if he knew everything. (虚拟)", "It looks as if it is going to rain. (陈述)"],
+          "the way": ["Do it the way I showed you."]
+        },
+        "commonMistakes": ["as if虚拟语气形式错误", "the way后误加that/in which（口语可省）"],
+        "relatedNodes": ["5.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5",
+      "nodeName": "特殊句式与高阶用法 · Special Structures & Advanced Usage",
+      "parentId": "root",
+      "level": 1,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "英语语法中的特殊句式结构和高阶用法，包括虚拟语气、倒装、强调、省略等，是英语高阶语法的重要组成部分",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["虚拟语气形式错误", "倒装条件判断错误", "强调句结构错误", "省略不当导致歧义"],
+        "relatedNodes": ["5.1", "5.2", "5.3", "5.4", "5.5"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.1",
+      "nodeName": "虚拟语气 · Subjunctive Mood",
+      "parentId": "5",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示与事实相反、不可能实现或可能性很小的假设、愿望、建议、命令等",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["虚拟语气形式错误", "错综时间条件句时态错误", "含蓄虚拟语气识别错误"],
+        "relatedNodes": ["5.1.1", "5.1.2", "5.1.3", "5.1.4", "5.1.5"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.1.1",
+      "nodeName": "非真实条件句（三类时态）",
+      "parentId": "5.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "表示与现在、过去或将来事实相反的假设条件句",
+        "rules": [
+          "与现在事实相反：if + 主语 + 过去式（be动词用were），主语 + would/should/could/might + 动词原形",
+          "与过去事实相反：if + 主语 + had + 过去分词，主语 + would/should/could/might + have + 过去分词",
+          "与将来事实相反：if + 主语 + should/were to/过去式，主语 + would/should/could/might + 动词原形"
+        ],
+        "examples": {
+          "与现在相反": ["If I were you, I would accept the offer.", "If he knew the truth, he would tell us."],
+          "与过去相反": ["If I had known the truth, I would have told you.", "If he had studied harder, he would have passed the exam."],
+          "与将来相反": ["If it should rain tomorrow, we would cancel the picnic.", "If he were to come, what would you say?"]
+        },
+        "commonMistakes": ["时态形式错误", "were与was混淆", "would have done与had done混淆"],
+        "relatedNodes": ["5.1.2", "5.1.5"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "If I ____ (know) his address, I would tell you.",
+          "answer": "knew",
+          "analysis": "与现在事实相反的虚拟语气，if从句用过去式，know的过去式为knew"
+        }
+      ]
+    },
+    {
+      "nodeId": "5.1.2",
+      "nodeName": "错综时间条件句",
+      "parentId": "5.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "条件从句和主句所表示的时间不一致的虚拟条件句",
+        "rules": [
+          "从句与过去事实相反，主句与现在事实相反：if + had done, would + do",
+          "从句与现在事实相反，主句与过去事实相反：if + did/were, would + have done"
+        ],
+        "examples": {
+          "错综时间": ["If you had taken my advice then, you would be better now. (从句过去，主句现在)", "If I were rich, I would have bought that house. (从句现在，主句过去)"]
+        },
+        "commonMistakes": ["时态判断错误", "主从句时态搭配错误"],
+        "relatedNodes": ["5.1.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.1.3",
+      "nodeName": "名词性从句中的虚拟",
+      "parentId": "5.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "某些表示建议、命令、要求、愿望等含义的词语后的名词性从句中使用虚拟语气",
+        "rules": [
+          "表示建议：suggest, advise, propose, recommend等",
+          "表示命令/要求：order, command, demand, require, request, insist等",
+          "表示愿望：wish, would rather等",
+          "虚拟形式：(should) + 动词原形，should可省略"
+        ],
+        "examples": {
+          "建议": ["I suggest that he (should) study harder.", "It is suggested that we (should) start early."],
+          "命令": ["The doctor ordered that he (should) stay in bed.", "It is required that all students (should) wear uniforms."],
+          "wish": ["I wish I were a bird.", "I wish I had studied harder.", "I wish he would come tomorrow."]
+        },
+        "commonMistakes": ["should省略错误", "wish后时态形式错误", "insist含义不同导致虚拟用法不同"],
+        "relatedNodes": ["4.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.1.4",
+      "nodeName": "特殊句式中的虚拟（wish/would rather/it's time等）",
+      "parentId": "5.1",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "wish, would rather, would sooner, it's time等特殊句式中的虚拟语气用法",
+        "rules": [
+          "wish后宾语从句：与现在相反用过去式，与过去相反用had done，与将来相反用would/could/might + do",
+          "would rather/sooner后从句：与现在/将来相反用过去式，与过去相反用had done",
+          "It's (high/about) time后从句：用过去式或should + 动词原形（should不可省略）"
+        ],
+        "examples": {
+          "wish": ["I wish I were taller.", "I wish I had met him yesterday.", "I wish he would stop talking."],
+          "would rather": ["I would rather you came tomorrow.", "I would rather you hadn't done that."],
+          "it's time": ["It's time we went home.", "It's high time that we should leave."]
+        },
+        "commonMistakes": ["wish后would误用", "would rather后主语错误", "it's time后should省略"],
+        "relatedNodes": ["5.1.3"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "I wish I ____ harder when I was young.",
+          "options": ["study", "studied", "had studied", "would study"],
+          "answer": "had studied",
+          "analysis": "wish后接与过去事实相反的虚拟语气，用had + 过去分词"
+        }
+      ]
+    },
+    {
+      "nodeId": "5.1.5",
+      "nodeName": "含蓄虚拟语气",
+      "parentId": "5.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "没有明显的if条件句，而是通过介词短语、分词短语、连词或其他方式暗示条件的虚拟语气",
+        "rules": [
+          "介词短语：without, but for, in the absence of等",
+          "分词短语：given, provided, supposing等",
+          "连词：or, otherwise, but that, but for等",
+          "上下文暗示"
+        ],
+        "examples": {
+          "without": ["Without your help, I would have failed. (= If it had not been for your help...)"],
+          "but for": ["But for the rain, we would have had a good time."],
+          "otherwise": ["I was ill that day. Otherwise I would have attended the meeting."]
+        },
+        "commonMistakes": ["含蓄条件识别错误", "时态选择错误"],
+        "relatedNodes": ["5.1.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.2",
+      "nodeName": "倒装结构 · Inversion",
+      "parentId": "5",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "将句子的正常语序（主语+谓语）颠倒，以达到强调、平衡句子结构或满足语法要求的修辞手法",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["完全倒装与部分倒装混淆", "倒装条件判断错误", "助动词选择错误"],
+        "relatedNodes": ["5.2.1", "5.2.2", "5.2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.2.1",
+      "nodeName": "完全倒装",
+      "parentId": "5.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "将整个谓语动词置于主语之前的倒装",
+        "rules": [
+          "here, there, now, then等置于句首，主语为名词时：Here comes the bus.",
+          "表示地点的介词短语置于句首，主语为名词时：On the wall hangs a picture.",
+          "表语置于句首：Present at the meeting were Professor Smith and his wife.",
+          "there be句型：There is a book on the desk."
+        ],
+        "examples": {
+          "here/there": ["Here comes the bus.", "There goes the bell."],
+          "地点状语": ["In front of the house stands a tall tree.", "On the table lies a book."],
+          "表语": ["Gone are the days when we were young.", "Present at the meeting were some experts."]
+        },
+        "commonMistakes": ["主语为代词时倒装", "倒装条件判断错误"],
+        "relatedNodes": ["5.2.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.2.2",
+      "nodeName": "部分倒装",
+      "parentId": "5.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "只将助动词、情态动词或be动词置于主语之前的倒装",
+        "rules": [
+          "否定词置于句首：never, hardly, scarcely, seldom, little, not until, not only...but also等",
+          "only + 状语置于句首：Only in this way can we succeed.",
+          "so...that/such...that结构中so/such置于句首：So fast does he run that I can't catch up.",
+          "虚拟条件句省略if：Had I known..., Were I you...",
+          "as/though引导让步从句的倒装：Child as he is...",
+          "so/neither/nor表示'也/也不'：So do I. Neither/Nor do I."
+        ],
+        "examples": {
+          "否定词": ["Never have I seen such a beautiful sight.", "Hardly had I arrived when it began to rain.", "Not only did he learn English, but he also learned French."],
+          "only": ["Only then did I realize my mistake.", "Only when he left did I find out the truth."],
+          "so": ["So fast does he run that I can't catch up.", "Such was his anger that he couldn't speak."],
+          "虚拟省略if": ["Had I known the truth, I would have told you.", "Were I you, I would accept the offer."]
+        },
+        "commonMistakes": ["否定词判断错误", "only后非状语时倒装", "助动词选择错误"],
+        "relatedNodes": ["5.2.1", "5.1.1", "4.3.7"]
+      },
+      "exercises": [
+        {
+          "type": "fillBlank",
+          "question": "Only in this way ____ (can) we solve the problem.",
+          "answer": "can",
+          "analysis": "only + 状语置于句首，句子需部分倒装，将情态动词can提前"
+        }
+      ]
+    },
+    {
+      "nodeId": "5.2.3",
+      "nodeName": "倒装触发条件（否定词前置/only前置/虚拟等）",
+      "parentId": "5.2",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "总结触发倒装结构的各种条件和关键词",
+        "rules": [
+          "完全倒装触发：here/there/now/then + 动词 + 名词主语；地点状语 + 动词 + 名词主语；表语 + be + 主语",
+          "部分倒装触发：否定词/半否定词置于句首；only + 状语置于句首；so/such...that中so/such置于句首；虚拟条件句省略if；as/though引导让步从句；so/neither/nor表示'也/也不'"
+        ],
+        "examples": {},
+        "commonMistakes": ["倒装条件判断错误", "完全倒装与部分倒装混淆"],
+        "relatedNodes": ["5.2.1", "5.2.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.3",
+      "nodeName": "强调结构 · Emphasis",
+      "parentId": "5",
+      "level": 2,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "通过各种手段突出句子中的某个成分，使之得到强调",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["强调句与其他从句混淆", "强调句时态错误", "强调句连接词误用"],
+        "relatedNodes": ["5.3.1", "5.3.2", "5.3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.3.1",
+      "nodeName": "It强调句（It is/was...that/who...）",
+      "parentId": "5.3",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "用It is/was...that/who...结构对句子的主语、宾语、状语进行强调",
+        "rules": [
+          "结构：It is/was + 被强调部分 + that/who + 其他部分",
+          "强调人时可用who或that，强调其他成分用that",
+          "强调句不能强调谓语动词",
+          "强调句的时态：现在/将来用It is，过去用It was",
+          "一般疑问句：Is/Was it...that...?",
+          "特殊疑问句：疑问词 + is/was it that...?"
+        ],
+        "examples": {
+          "强调主语": ["It was Tom who/that broke the window."],
+          "强调宾语": ["It was the window that Tom broke."],
+          "强调状语": ["It was yesterday that Tom broke the window.", "It was in the park that I met him."],
+          "疑问句": ["Was it Tom who broke the window?", "What was it that made you so angry?"]
+        },
+        "commonMistakes": ["强调句与主语从句混淆", "强调谓语动词", "时态错误"],
+        "relatedNodes": ["1.1.5.4", "4.1.1"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "It was not until midnight ____ they reached the camp site.",
+          "options": ["that", "when", "while", "as"],
+          "answer": "that",
+          "analysis": "It was not until...that...是强调句结构，强调时间状语，必须用that"
+        }
+      ]
+    },
+    {
+      "nodeId": "5.3.2",
+      "nodeName": "助动词do/does/did强调",
+      "parentId": "5.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用助动词do/does/did对谓语动词进行强调",
+        "rules": [
+          "结构：do/does/did + 动词原形",
+          "用于一般现在时和一般过去时",
+          "表示'的确/确实'"
+        ],
+        "examples": {
+          "强调": ["I do like English.", "He did finish his homework yesterday.", "Do come in."]
+        },
+        "commonMistakes": ["did后动词用过去式", "用于进行时或完成时"],
+        "relatedNodes": ["1.1.2.1.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.3.3",
+      "nodeName": "其他强调方式（倒装/感叹/词汇强调）",
+      "parentId": "5.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "除强调句和助动词强调外的其他强调方式",
+        "rules": [
+          "倒装强调：Never have I seen...",
+          "感叹句强调：What a beautiful day it is!",
+          "词汇强调：very, own, just, only等",
+          "重复强调：again and again, over and over等"
+        ],
+        "examples": {
+          "倒装": ["Never have I seen such a sight."],
+          "感叹": ["How beautiful she is!"],
+          "词汇": ["This is the very book I want.", "I want to do it myself."]
+        },
+        "commonMistakes": [],
+        "relatedNodes": ["5.2", "2.3.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.4",
+      "nodeName": "省略结构 · Ellipsis",
+      "parentId": "5",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "在不影响理解的前提下，省略句子中的某些成分，使语言简洁",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["省略导致歧义", "不该省略时省略", "省略成分判断错误"],
+        "relatedNodes": ["5.4.1", "5.4.2", "5.4.3", "5.4.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.4.1",
+      "nodeName": "简单句中的省略",
+      "parentId": "5.4",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "简单句中的主语、谓语、宾语等成分的省略",
+        "rules": [
+          "省略主语：(You) Come here.",
+          "省略主语和助动词：(I am) Glad to meet you.",
+          "省略谓语：He likes English, but I don't (like English).",
+          "省略宾语：I asked him to go, and he did (go)."
+        ],
+        "examples": {
+          "省略": ["(It) Sounds good.", "(Is there) Anything I can do for you?", "He can speak English, but I can't (speak English)."]
+        },
+        "commonMistakes": ["省略导致句子不完整", "省略后逻辑不清"],
+        "relatedNodes": ["5.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.4.2",
+      "nodeName": "复合句中的省略",
+      "parentId": "5.4",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "复合句中主句或从句成分的省略",
+        "rules": [
+          "宾语从句中that的省略：I know (that) he is right.",
+          "定语从句中关系代词的省略：The man (whom) you met is my uncle.",
+          "状语从句中的省略：when, while, if, though等引导的从句中，主语与主句主语一致且含有be动词时，可省略主语和be动词"
+        ],
+        "examples": {
+          "宾语从句": ["I think (that) he will come."],
+          "定语从句": ["The book (which) I bought is interesting."],
+          "状语从句": ["When (he was) asked, he didn't answer.", "If (it is) possible, please help me."]
+        },
+        "commonMistakes": ["that省略导致歧义", "状语从句省略条件判断错误"],
+        "relatedNodes": ["4.1.2", "4.2", "4.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.4.3",
+      "nodeName": "并列句中的省略",
+      "parentId": "5.4",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "并列句中相同成分的省略",
+        "rules": [
+          "省略相同的主语：He came in and (he) sat down.",
+          "省略相同的谓语：He likes English, and I like English, too.",
+          "省略相同的主语和谓语：Tom is a doctor, and his wife is a doctor, too."
+        ],
+        "examples": {
+          "省略": ["He is a teacher and (he is) a writer.", "Tom speaks English, and his brother speaks English, too."]
+        },
+        "commonMistakes": ["省略导致逻辑不清"],
+        "relatedNodes": ["1.1.8.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.4.4",
+      "nodeName": "状语从句的省略规则",
+      "parentId": "5.4",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "状语从句中主语和be动词的省略规则",
+        "rules": [
+          "条件：从句主语与主句主语一致，且从句谓语含有be动词",
+          "省略：省略从句主语和be动词",
+          "常见引导词：when, while, if, unless, though, although, until, once等"
+        ],
+        "examples": {
+          "时间": ["While (I was) walking along the street, I met an old friend."],
+          "条件": ["If (it is) necessary, please call me."],
+          "让步": ["Though (he was) tired, he kept on working."]
+        },
+        "commonMistakes": ["主语不一致时省略", "从句无主语时误用省略"],
+        "relatedNodes": ["4.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.5",
+      "nodeName": "其他高阶结构",
+      "parentId": "5",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "英语中的其他高阶语法结构",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": [],
+        "relatedNodes": ["5.5.1", "5.5.2", "5.5.3", "5.5.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.5.1",
+      "nodeName": "独立主格结构",
+      "parentId": "5.5",
+      "level": 3,
+      "isKeyPoint": true,
+      "content": {
+        "definition": "由名词/代词+非谓语动词/形容词/副词/介词短语构成的独立结构，在句中作状语，有自己的逻辑主语",
+        "rules": [
+          "构成：名词/代词 + 现在分词/过去分词/不定式/形容词/副词/介词短语",
+          "功能：作时间、原因、条件、伴随状语",
+          "独立主格与主句主语不同",
+          "with/without + 复合结构也是独立主格的一种"
+        ],
+        "examples": {
+          "现在分词": ["Weather permitting, we will go camping."],
+          "过去分词": ["All things considered, his proposal is reasonable."],
+          "不定式": ["Nobody to help him, he had to do it alone."],
+          "形容词": ["He sat in the corner, his eyes red with crying."],
+          "with结构": ["With the work done, he went home.", "With tears in her eyes, she waved goodbye."]
+        },
+        "commonMistakes": ["独立主格与分词短语混淆", "独立主格前误加连词", "with结构中宾补形式错误"],
+        "relatedNodes": ["1.1.2.2.3", "1.1.2.2.4"]
+      },
+      "exercises": [
+        {
+          "type": "singleChoice",
+          "question": "____, we went home happily.",
+          "options": ["With the work done", "The work done", "A and B", "With the work being done"],
+          "answer": "A and B",
+          "analysis": "with + 宾语 + 过去分词构成独立主格，也可省略with直接用名词+过去分词"
+        }
+      ]
+    },
+    {
+      "nodeId": "5.5.2",
+      "nodeName": "比较结构（原级/比较级/最高级特殊用法）",
+      "parentId": "5.5",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "形容词和副词比较结构的特殊用法和固定句型",
+        "rules": [
+          "no more than：仅仅/只有，表示数量少",
+          "not more than：不超过，表示数量",
+          "no less than：多达/不少于，强调数量多",
+          "not less than：不少于，表示数量",
+          "more A than B：与其说B不如说A",
+          "less A than B：与其说A不如说B",
+          "not so much A as B：与其说是A不如说是B",
+          "the more...the more：越……越……"
+        ],
+        "examples": {
+          "no more than": ["He is no more than a child. (他只是个孩子)"],
+          "no less than": ["He has no less than 100 books. (他有多达100本书)"],
+          "more than": ["He is more brave than wise. (他有勇无谋)"]
+        },
+        "commonMistakes": ["no more than与not more than混淆", "比较结构语义理解错误"],
+        "relatedNodes": ["1.1.3.1", "1.1.4.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.5.3",
+      "nodeName": "There be句型及变体",
+      "parentId": "5.5",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表示'存在有'的句型及其各种变体形式",
+        "rules": [
+          "基本结构：There is/are + 主语 + 地点状语",
+          "时态变化：There was/were, There will be, There has been等",
+          "情态动词：There must be, There may be等",
+          "非谓语形式：There to be, There being",
+          "变体：There seems to be, There happens to be, There stands/lies/exists等"
+        ],
+        "examples": {
+          "基本": ["There is a book on the desk.", "There are many students in the classroom."],
+          "时态": ["There was a meeting yesterday.", "There will be a concert tomorrow."],
+          "变体": ["There stands a tall tree in front of the house.", "There seems to be something wrong."]
+        },
+        "commonMistakes": ["主谓一致错误", "there be与have混淆"],
+        "relatedNodes": ["3.3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "5.5.4",
+      "nodeName": "插入语",
+      "parentId": "5.5",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "插在句子中间，对句子进行补充说明，去掉后不影响句子结构完整性的成分",
+        "rules": [
+          "常用插入语：however, therefore, in fact, of course, generally speaking, to be honest, I think, I believe等",
+          "位置：句首、句中、句末",
+          "用逗号与句子其他部分隔开"
+        ],
+        "examples": {
+          "插入语": ["However, I don't agree with you.", "He is, in fact, a good student.", "This book, I think, is very interesting."]
+        },
+        "commonMistakes": ["插入语前后缺少逗号", "插入语位置不当"],
+        "relatedNodes": []
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6",
+      "nodeName": "语篇与语用语法 · Discourse & Pragmatic Grammar",
+      "parentId": "root",
+      "level": 1,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "研究语言在实际使用中的组织方式和交际功能，包括语篇衔接、语体语域、标点符号、情景交际等",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["语篇衔接不当", "语体选择错误", "标点符号误用", "交际用语不当"],
+        "relatedNodes": ["6.1", "6.2", "6.3", "6.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.1",
+      "nodeName": "语篇衔接 · Cohesion",
+      "parentId": "6",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "语篇中各成分之间的语义联系，使语篇成为一个连贯的整体",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["衔接手段单一", "衔接词误用", "指代不明"],
+        "relatedNodes": ["6.1.1", "6.1.2", "6.1.3", "6.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.1.1",
+      "nodeName": "指代（Reference）",
+      "parentId": "6.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "使用代词、指示词等回指或预指语篇中的其他成分，建立语义联系",
+        "rules": [
+          "人称指代：he, she, it, they等",
+          "指示指代：this, that, these, those, the等",
+          "比较指代：same, similar, other, such等"
+        ],
+        "examples": {
+          "人称指代": ["Tom is a doctor. He works in a hospital."],
+          "指示指代": ["There is a book on the desk. This book is mine."],
+          "比较指代": ["I have two books. One is red, the other is blue."]
+        },
+        "commonMistakes": ["指代不明", "指代与先行词不一致", "指代距离过远"],
+        "relatedNodes": ["1.1.5"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.1.2",
+      "nodeName": "替代与省略（Substitution & Ellipsis）",
+      "parentId": "6.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用替代词替代或省略已提及的内容，避免重复，使语篇简洁",
+        "rules": [
+          "名词性替代：one, ones, the same, the kind等",
+          "动词性替代：do, does, did等",
+          "分句性替代：so, not等",
+          "省略：省略已提及的成分"
+        ],
+        "examples": {
+          "名词替代": ["I need a pen. Do you have one?"],
+          "动词替代": ["He likes English. So do I."],
+          "分句替代": ["I think so. / I hope not."],
+          "省略": ["He can speak English, but I can't (speak English)."]
+        },
+        "commonMistakes": ["替代词选择错误", "省略导致歧义"],
+        "relatedNodes": ["5.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.1.3",
+      "nodeName": "连接词（Conjunction）",
+      "parentId": "6.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "使用连词或连接副词建立句子之间的逻辑关系",
+        "rules": [
+          "添加关系：and, also, in addition, furthermore等",
+          "转折关系：but, however, yet, nevertheless等",
+          "因果关系：so, therefore, thus, as a result等",
+          "时间关系：then, after that, meanwhile等"
+        ],
+        "examples": {
+          "添加": ["He is smart. In addition, he works hard."],
+          "转折": ["It was raining. However, we went out."],
+          "因果": ["He didn't study. Therefore, he failed."]
+        },
+        "commonMistakes": ["连接词误用", "连接词重复", "逻辑关系不清"],
+        "relatedNodes": ["1.1.8"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.1.4",
+      "nodeName": "词汇衔接（Lexical Cohesion）",
+      "parentId": "6.1",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "通过词汇的选择和搭配建立语篇内部的语义联系",
+        "rules": [
+          "重复：重复使用同一词语",
+          "同义/近义：使用同义词或近义词",
+          "上下义：使用上义词或下义词",
+          "搭配：使用语义上相互搭配的词语"
+        ],
+        "examples": {
+          "重复": ["He bought a car. The car is red."],
+          "同义": ["He bought a car. The vehicle is expensive."],
+          "上下义": ["He bought a car. The vehicle is red.", "He bought some fruit, such as apples and bananas."]
+        },
+        "commonMistakes": ["词汇重复过多", "词汇变化导致语义偏差"],
+        "relatedNodes": []
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.2",
+      "nodeName": "语体与语域 · Register",
+      "parentId": "6",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "根据使用场合、对象、目的的不同，选择不同的语言形式和风格",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["语体选择不当", "正式与非正式混淆"],
+        "relatedNodes": ["6.2.1", "6.2.2", "6.2.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.2.1",
+      "nodeName": "口语vs书面语语法差异",
+      "parentId": "6.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "口语和书面语在语法结构、词汇选择、句子复杂度等方面的差异",
+        "rules": [
+          "口语：句子简短，多用省略，多用简单句，多使用填充词（well, you know等）",
+          "书面语：句子完整，结构复杂，多用从句，用词正式"
+        ],
+        "examples": {
+          "口语": ["Gonna (going to), wanna (want to), kinda (kind of)"],
+          "书面语": ["It is suggested that..., In accordance with..."]
+        },
+        "commonMistakes": ["书面语中过多使用口语表达", "正式场合使用非正式用语"],
+        "relatedNodes": []
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.2.2",
+      "nodeName": "正式vs非正式语体语法规则",
+      "parentId": "6.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "正式语体和非正式语体在语法形式上的差异",
+        "rules": [
+          "缩略形式：非正式可用I'm, don't等，正式用I am, do not等",
+          "被动语态：正式文体中更常用",
+          "名词化：正式文体中多用名词化结构",
+          "情态动词：正式用shall, 非正式用will"
+        ],
+        "examples": {
+          "正式": ["It is requested that all students submit their applications.", "The report was prepared by the committee."],
+          "非正式": ["Please hand in your forms.", "The committee prepared the report."]
+        },
+        "commonMistakes": ["语体不一致", "正式程度判断错误"],
+        "relatedNodes": ["3.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.2.3",
+      "nodeName": "应试/学术/日常场景语法规范",
+      "parentId": "6.2",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "不同场景下的英语语法使用规范",
+        "rules": [
+          "应试场景：注意语法正确性，避免口语化表达，句子结构完整",
+          "学术场景：使用正式语体，多用被动语态和名词化，避免主观表达",
+          "日常场景：灵活使用，注重交际效果，可适当使用省略和口语表达"
+        ],
+        "examples": {},
+        "commonMistakes": ["场景判断错误", "语体使用不当"],
+        "relatedNodes": []
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.3",
+      "nodeName": "标点符号规范 · Punctuation",
+      "parentId": "6",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "英语标点符号的正确使用规范",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["逗号滥用", "句号与逗号混淆", "引号使用错误"],
+        "relatedNodes": ["6.3.1", "6.3.2", "6.3.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.3.1",
+      "nodeName": "句末标点",
+      "parentId": "6.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用于句子末尾的标点符号",
+        "rules": [
+          "句号(.)：陈述句、祈使句末尾",
+          "问号(?)：疑问句末尾",
+          "感叹号(!)：感叹句、强烈情感的祈使句末尾"
+        ],
+        "examples": {
+          "句号": ["I am a student.", "Please sit down."],
+          "问号": ["Are you a student?", "What is your name?"],
+          "感叹号": ["What a beautiful day!", "Help!"]
+        },
+        "commonMistakes": ["疑问句后误用句号", "感叹号滥用"],
+        "relatedNodes": ["2.3.1"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.3.2",
+      "nodeName": "句内标点（逗号/分号/冒号等）",
+      "parentId": "6.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "用于句子内部的标点符号",
+        "rules": [
+          "逗号(,)：分隔并列成分、插入语、从句等；不能连接两个独立分句",
+          "分号(;)：连接关系密切的独立分句；分隔复杂的并列成分",
+          "冒号(:)：引出解释、列举、引语等",
+          "破折号(-)：表示解释、插入、转折等"
+        ],
+        "examples": {
+          "逗号": ["Tom, Jerry, and Mike are friends.", "However, I don't agree."],
+          "分号": ["He likes English; she likes math."],
+          "冒号": ["There are three colors: red, green, and blue."],
+          "破折号": ["He finally made a decision—he would quit."]
+        },
+        "commonMistakes": ["逗号连接独立分句（逗号粘连）", "分号与逗号混淆", "冒号后大写规则错误"],
+        "relatedNodes": []
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.3.3",
+      "nodeName": "特殊标点（引号/破折号/括号等）",
+      "parentId": "6.3",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "特殊用途的标点符号",
+        "rules": [
+          "引号：引用直接引语、特殊含义的词语、标题等；美式双引号在外，单引号在内",
+          "括号：插入补充说明",
+          "省略号：表示省略或停顿",
+          "连字符：连接复合词；分隔行末单词",
+          "撇号：表示所有格或缩写"
+        ],
+        "examples": {
+          "引号": ["He said, 'Hello.'", "The word 'literally' is often misused."],
+          "括号": ["He (Tom) is my friend."],
+          "省略号": ["Well... I'm not sure."],
+          "连字符": ["a well-known writer"],
+          "撇号": ["Tom's book", "don't"]
+        },
+        "commonMistakes": ["引号内外使用错误", "撇号与所有格-s位置错误", "连字符与破折号混淆"],
+        "relatedNodes": ["1.1.1.3", "1.2.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.4",
+      "nodeName": "情景交际语法 · Pragmatics",
+      "parentId": "6",
+      "level": 2,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "在特定交际场景中的语言使用规则和礼貌策略",
+        "rules": [],
+        "examples": {},
+        "commonMistakes": ["礼貌程度不当", "答非所问", "文化差异导致的语用失误"],
+        "relatedNodes": ["6.4.1", "6.4.2", "6.4.3"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.4.1",
+      "nodeName": "委婉表达规则",
+      "parentId": "6.4",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "使用委婉、礼貌的方式表达请求、拒绝、批评等",
+        "rules": [
+          "委婉请求：Could you...? Would you mind...? I was wondering if...",
+          "委婉拒绝：I'd love to, but...; I'm afraid I can't...",
+          "委婉建议：You might want to...; Have you considered...?",
+          "委婉批评：Perhaps you could...; Maybe you should..."
+        ],
+        "examples": {
+          "请求": ["Could you please help me?", "Would you mind opening the window?"],
+          "拒绝": ["I'd love to come, but I have other plans.", "I'm afraid I can't make it."],
+          "建议": ["You might want to try again.", "Perhaps you could ask someone else."]
+        },
+        "commonMistakes": ["过于直接或过于委婉", "语气不当"],
+        "relatedNodes": ["1.1.2.1.4"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.4.2",
+      "nodeName": "问答匹配规范",
+      "parentId": "6.4",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "问句与答句之间的语法和语义匹配规则",
+        "rules": [
+          "一般疑问句：Yes/No回答，注意助动词一致",
+          "特殊疑问句：直接回答疑问词所问内容",
+          "选择疑问句：选择其中一项或都不选",
+          "反义疑问句：根据事实回答，注意前后一致"
+        ],
+        "examples": {
+          "一般疑问": ["Do you like English? Yes, I do. / No, I don't."],
+          "特殊疑问": ["What is your name? My name is Tom."],
+          "选择疑问": ["Do you like tea or coffee? Tea, please."],
+          "反义疑问": ["You like English, don't you? Yes, I do."]
+        },
+        "commonMistakes": ["Yes/No回答与助动词不一致", "反义疑问句回答错误"],
+        "relatedNodes": ["2.3.1.2"]
+      },
+      "exercises": []
+    },
+    {
+      "nodeId": "6.4.3",
+      "nodeName": "礼貌句式用法",
+      "parentId": "6.4",
+      "level": 3,
+      "isKeyPoint": false,
+      "content": {
+        "definition": "表达礼貌的各种句式结构",
+        "rules": [
+          "礼貌提问：May I...? Could I...? Do you mind if...?",
+          "礼貌请求：Would you...? Could you...? Will you please...?",
+          "礼貌感谢：Thank you for...; I really appreciate...",
+          "礼貌道歉：I'm sorry for...; I apologize for...; Please excuse me for..."
+        ],
+        "examples": {
+          "提问": ["May I ask you a question?", "Do you mind if I open the window?"],
+          "请求": ["Would you please pass me the salt?", "Could you help me with this?"],
+          "感谢": ["Thank you for your help.", "I really appreciate your advice."],
+          "道歉": ["I'm sorry for being late.", "I apologize for the inconvenience."]
+        },
+        "commonMistakes": ["礼貌程度不当", "句式选择错误"],
+        "relatedNodes": ["1.1.2.1.4"]
+      },
+      "exercises": []
+    }
+  ]
+}
